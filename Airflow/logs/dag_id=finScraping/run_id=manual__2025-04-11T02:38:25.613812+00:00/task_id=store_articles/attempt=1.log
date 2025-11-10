@@ -1,0 +1,359 @@
+[2025-04-11T02:39:31.065+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-04-11T02:39:31.088+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: finScraping.store_articles manual__2025-04-11T02:38:25.613812+00:00 [queued]>
+[2025-04-11T02:39:31.097+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: finScraping.store_articles manual__2025-04-11T02:38:25.613812+00:00 [queued]>
+[2025-04-11T02:39:31.098+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-04-11T02:39:31.119+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): store_articles> on 2025-04-11 02:38:25.613812+00:00
+[2025-04-11T02:39:31.126+0000] {standard_task_runner.py:63} INFO - Started process 94 to run task
+[2025-04-11T02:39:31.130+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'finScraping', 'store_articles', 'manual__2025-04-11T02:38:25.613812+00:00', '--job-id', '140', '--raw', '--subdir', 'DAGS_FOLDER/finScrapingDag.py', '--cfg-path', '/tmp/tmpjb9nr9yu']
+[2025-04-11T02:39:31.131+0000] {standard_task_runner.py:91} INFO - Job 140: Subtask store_articles
+[2025-04-11T02:39:31.179+0000] {task_command.py:426} INFO - Running <TaskInstance: finScraping.store_articles manual__2025-04-11T02:38:25.613812+00:00 [running]> on host 0cfa6d1f584e
+[2025-04-11T02:39:31.309+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='finScraping' AIRFLOW_CTX_TASK_ID='store_articles' AIRFLOW_CTX_EXECUTION_DATE='2025-04-11T02:38:25.613812+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-11T02:38:25.613812+00:00'
+[2025-04-11T02:39:31.309+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-04-11T02:39:31.477+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/3eOJbpAa9L6_Zb86leN1hz2ypppmHFKJ0OwvUPm-EpA%3D [status:201 duration:0.129s]
+[2025-04-11T02:39:31.478+0000] {logging_mixin.py:188} INFO - saving article 3eOJbpAa9L6_Zb86leN1hz2ypppmHFKJ0OwvUPm-EpA= to ES
+[2025-04-11T02:39:31.485+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/-_BW2UtdhFNsVZ5AqCVBExY_Gto-M127QqQEaLUyVpM%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.485+0000] {logging_mixin.py:188} INFO - saving article -_BW2UtdhFNsVZ5AqCVBExY_Gto-M127QqQEaLUyVpM= to ES
+[2025-04-11T02:39:31.493+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/4EHAv6PGpV02Ea3qKDM3i5RQzMCmHBIHTKPNKn-SAbE%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.494+0000] {logging_mixin.py:188} INFO - saving article 4EHAv6PGpV02Ea3qKDM3i5RQzMCmHBIHTKPNKn-SAbE= to ES
+[2025-04-11T02:39:31.514+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/RMrjSSyJy2t2JLirWQPoGy6Hm2oOOuWOKP8VLi1dtCM%3D [status:201 duration:0.019s]
+[2025-04-11T02:39:31.514+0000] {logging_mixin.py:188} INFO - saving article RMrjSSyJy2t2JLirWQPoGy6Hm2oOOuWOKP8VLi1dtCM= to ES
+[2025-04-11T02:39:31.521+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/aKt8fuUcuks_dyiq0hKdC4p4c3RgwTyCjSuhNBTbCbk%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.521+0000] {logging_mixin.py:188} INFO - saving article aKt8fuUcuks_dyiq0hKdC4p4c3RgwTyCjSuhNBTbCbk= to ES
+[2025-04-11T02:39:31.529+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/ZJFf34BJ4LGIM9z26PTUzN9cikolRPNOa8S4Hya--Dw%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.529+0000] {logging_mixin.py:188} INFO - saving article ZJFf34BJ4LGIM9z26PTUzN9cikolRPNOa8S4Hya--Dw= to ES
+[2025-04-11T02:39:31.536+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/P78zzP1YBHdSwOnwu9kDXdgl-oQPHS2G2RdJ4sA0B_E%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.536+0000] {logging_mixin.py:188} INFO - saving article P78zzP1YBHdSwOnwu9kDXdgl-oQPHS2G2RdJ4sA0B_E= to ES
+[2025-04-11T02:39:31.543+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/okGTjvCcKP7fAziMmluCOF6adR_m7Td4UfjfbCKiB6I%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.544+0000] {logging_mixin.py:188} INFO - saving article okGTjvCcKP7fAziMmluCOF6adR_m7Td4UfjfbCKiB6I= to ES
+[2025-04-11T02:39:31.551+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Zc7haY57N9cIZJ4zuLNg88nNgY8nLcalKLAs2KHqUuU%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.551+0000] {logging_mixin.py:188} INFO - saving article Zc7haY57N9cIZJ4zuLNg88nNgY8nLcalKLAs2KHqUuU= to ES
+[2025-04-11T02:39:31.558+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/4tttmXTmUa4K1oH98u8WnAEp4jBIlnE_R6ZF3wJRC00%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.558+0000] {logging_mixin.py:188} INFO - saving article 4tttmXTmUa4K1oH98u8WnAEp4jBIlnE_R6ZF3wJRC00= to ES
+[2025-04-11T02:39:31.566+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/zOZgtLILd4OSoNYcskdI3fmb2s7M-XvL0wIhT8GUE4A%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.566+0000] {logging_mixin.py:188} INFO - saving article zOZgtLILd4OSoNYcskdI3fmb2s7M-XvL0wIhT8GUE4A= to ES
+[2025-04-11T02:39:31.573+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/TLFTJEsapu8DFoKUkUFGApgC8ghDymj5HApNrF7BPxQ%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.574+0000] {logging_mixin.py:188} INFO - saving article TLFTJEsapu8DFoKUkUFGApgC8ghDymj5HApNrF7BPxQ= to ES
+[2025-04-11T02:39:31.582+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/5A1i1J-JWSQ-plidQiNhGJjQm_Vdf6EjpNGYCB5Z_zY%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.583+0000] {logging_mixin.py:188} INFO - saving article 5A1i1J-JWSQ-plidQiNhGJjQm_Vdf6EjpNGYCB5Z_zY= to ES
+[2025-04-11T02:39:31.590+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/AIURiiucVUuHXEjlOjlfag6un69co9gJE6PL0eKeixA%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.590+0000] {logging_mixin.py:188} INFO - saving article AIURiiucVUuHXEjlOjlfag6un69co9gJE6PL0eKeixA= to ES
+[2025-04-11T02:39:31.597+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/TGAy5Y7dUbCkfrbOD9OmN68_GZUb0S-thB7xrvF1v_Y%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.597+0000] {logging_mixin.py:188} INFO - saving article TGAy5Y7dUbCkfrbOD9OmN68_GZUb0S-thB7xrvF1v_Y= to ES
+[2025-04-11T02:39:31.604+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/1FNmuI_jPjkaNuxX7A4v5MqPeOr5v6Zxtk6hMOu2X-c%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.604+0000] {logging_mixin.py:188} INFO - saving article 1FNmuI_jPjkaNuxX7A4v5MqPeOr5v6Zxtk6hMOu2X-c= to ES
+[2025-04-11T02:39:31.611+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/K9oICNkRQIlCSazKSilobRPKDsj09Fv6rjfvsnoV_vM%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.611+0000] {logging_mixin.py:188} INFO - saving article K9oICNkRQIlCSazKSilobRPKDsj09Fv6rjfvsnoV_vM= to ES
+[2025-04-11T02:39:31.620+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/E3ySsBi_62BIxRtFo8hyQRJddDBB8EQg9GZPyOpcwng%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.621+0000] {logging_mixin.py:188} INFO - saving article E3ySsBi_62BIxRtFo8hyQRJddDBB8EQg9GZPyOpcwng= to ES
+[2025-04-11T02:39:31.635+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/f4N2Ey7N8rG-kLq7iiWSuSLkx1KbNXj-HNi67ewxJp0%3D [status:201 duration:0.012s]
+[2025-04-11T02:39:31.636+0000] {logging_mixin.py:188} INFO - saving article f4N2Ey7N8rG-kLq7iiWSuSLkx1KbNXj-HNi67ewxJp0= to ES
+[2025-04-11T02:39:31.652+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/gdufGrx-iujoeRwzedG668K-R3xgJQkkTSOl9ikP0Rg%3D [status:201 duration:0.014s]
+[2025-04-11T02:39:31.653+0000] {logging_mixin.py:188} INFO - saving article gdufGrx-iujoeRwzedG668K-R3xgJQkkTSOl9ikP0Rg= to ES
+[2025-04-11T02:39:31.670+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/jCVG70LKReKy_q6O9FzB87tBrw7VcakILjtBzlKWaps%3D [status:201 duration:0.015s]
+[2025-04-11T02:39:31.671+0000] {logging_mixin.py:188} INFO - saving article jCVG70LKReKy_q6O9FzB87tBrw7VcakILjtBzlKWaps= to ES
+[2025-04-11T02:39:31.680+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/u9ooWnWXPTDEAi8DUNtiJy_NkGkkUEci4lgFU9yxCaY%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.681+0000] {logging_mixin.py:188} INFO - saving article u9ooWnWXPTDEAi8DUNtiJy_NkGkkUEci4lgFU9yxCaY= to ES
+[2025-04-11T02:39:31.690+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/IKqk4vVTzp8tMLl_NQ-8BJ9QQ4vjuUMQT91yzhh3GKs%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.691+0000] {logging_mixin.py:188} INFO - saving article IKqk4vVTzp8tMLl_NQ-8BJ9QQ4vjuUMQT91yzhh3GKs= to ES
+[2025-04-11T02:39:31.702+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/WVnKc2-swl8sJ3KsrZ0hzkEtv6Ju5Od_lRVbaj7ERz8%3D [status:201 duration:0.011s]
+[2025-04-11T02:39:31.703+0000] {logging_mixin.py:188} INFO - saving article WVnKc2-swl8sJ3KsrZ0hzkEtv6Ju5Od_lRVbaj7ERz8= to ES
+[2025-04-11T02:39:31.710+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/URURzG-dFvmZKpfFRxMHL_gR_ETJgKqiDaPLprGDtJM%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.711+0000] {logging_mixin.py:188} INFO - saving article URURzG-dFvmZKpfFRxMHL_gR_ETJgKqiDaPLprGDtJM= to ES
+[2025-04-11T02:39:31.720+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/ZGHr2n_JWia2xVU0oTohsKrmTc1der1ujRdlhnAN72E%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.721+0000] {logging_mixin.py:188} INFO - saving article ZGHr2n_JWia2xVU0oTohsKrmTc1der1ujRdlhnAN72E= to ES
+[2025-04-11T02:39:31.729+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/7jXRpS7rw5GJOLWBY9FmRFzS1BbzCzCPxE8SjVkUMD0%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.730+0000] {logging_mixin.py:188} INFO - saving article 7jXRpS7rw5GJOLWBY9FmRFzS1BbzCzCPxE8SjVkUMD0= to ES
+[2025-04-11T02:39:31.739+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Sys2yS31AAz9dyAeH5fd93to0Q43gJbFGGAQo8Jr1mA%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.740+0000] {logging_mixin.py:188} INFO - saving article Sys2yS31AAz9dyAeH5fd93to0Q43gJbFGGAQo8Jr1mA= to ES
+[2025-04-11T02:39:31.748+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/GHGSXJ2L03VcOODi8EhPZWzLbm_8yzWbS1TSzQIHWDA%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.749+0000] {logging_mixin.py:188} INFO - saving article GHGSXJ2L03VcOODi8EhPZWzLbm_8yzWbS1TSzQIHWDA= to ES
+[2025-04-11T02:39:31.757+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/bPx5GXDiwuTH4xv_-ka2tYZtVON5NjSVxYUjkVpZuWs%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.757+0000] {logging_mixin.py:188} INFO - saving article bPx5GXDiwuTH4xv_-ka2tYZtVON5NjSVxYUjkVpZuWs= to ES
+[2025-04-11T02:39:31.765+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Jh-7LQw37Wa5WLCsDf4oqwjkpHofVsf58TKeELn5k_c%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.765+0000] {logging_mixin.py:188} INFO - saving article Jh-7LQw37Wa5WLCsDf4oqwjkpHofVsf58TKeELn5k_c= to ES
+[2025-04-11T02:39:31.773+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/vYdnMw3914VsSJcoW0V595mKKj-bJ_r2elBJGmb5Uq0%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.773+0000] {logging_mixin.py:188} INFO - saving article vYdnMw3914VsSJcoW0V595mKKj-bJ_r2elBJGmb5Uq0= to ES
+[2025-04-11T02:39:31.780+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/aDOa7EeBkcdXWURERhIx0EQUkFYHXqOZoE8OnDQaCsM%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.780+0000] {logging_mixin.py:188} INFO - saving article aDOa7EeBkcdXWURERhIx0EQUkFYHXqOZoE8OnDQaCsM= to ES
+[2025-04-11T02:39:31.787+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/cIj1CSCNPI0Yq4n0N9ZFhAEy3iet7P4XEwx6mBCu-n8%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.788+0000] {logging_mixin.py:188} INFO - saving article cIj1CSCNPI0Yq4n0N9ZFhAEy3iet7P4XEwx6mBCu-n8= to ES
+[2025-04-11T02:39:31.796+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/JVCnL0XaIHe9R7B0d3sqAoxieL4gPvUz-UtRcNqTv98%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.796+0000] {logging_mixin.py:188} INFO - saving article JVCnL0XaIHe9R7B0d3sqAoxieL4gPvUz-UtRcNqTv98= to ES
+[2025-04-11T02:39:31.803+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/B6iapi8ZfAzgufvgM_ck5eKKM4-RGvh2UncQap5DeE8%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.803+0000] {logging_mixin.py:188} INFO - saving article B6iapi8ZfAzgufvgM_ck5eKKM4-RGvh2UncQap5DeE8= to ES
+[2025-04-11T02:39:31.810+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/cWI-jOP5EQqV9WpfOHknfIUHK7JYtDpL--i8G2fdKwM%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.811+0000] {logging_mixin.py:188} INFO - saving article cWI-jOP5EQqV9WpfOHknfIUHK7JYtDpL--i8G2fdKwM= to ES
+[2025-04-11T02:39:31.818+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/ZOu_xnC2gEqg0KfJNmXQcoNSFW8w5v6Qoc-a8pgu0b8%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.819+0000] {logging_mixin.py:188} INFO - saving article ZOu_xnC2gEqg0KfJNmXQcoNSFW8w5v6Qoc-a8pgu0b8= to ES
+[2025-04-11T02:39:31.826+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/WI5GWzP18J7EOq0i8dT3jWymWQzldP3WVivPuAU4_pc%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.827+0000] {logging_mixin.py:188} INFO - saving article WI5GWzP18J7EOq0i8dT3jWymWQzldP3WVivPuAU4_pc= to ES
+[2025-04-11T02:39:31.835+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/CLmmjOI4Eey888jfYNGieyTdE8FQyl9TXI2upRqhXwc%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.835+0000] {logging_mixin.py:188} INFO - saving article CLmmjOI4Eey888jfYNGieyTdE8FQyl9TXI2upRqhXwc= to ES
+[2025-04-11T02:39:31.842+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/irtJDRiIILdLElETn1Rity4TG7tCDNcA91vn8wMY_eI%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.842+0000] {logging_mixin.py:188} INFO - saving article irtJDRiIILdLElETn1Rity4TG7tCDNcA91vn8wMY_eI= to ES
+[2025-04-11T02:39:31.851+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Oumg3p51Ta4wj2K5bpp9M2t-BIJZ2KMNd0Umb59XzK0%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.851+0000] {logging_mixin.py:188} INFO - saving article Oumg3p51Ta4wj2K5bpp9M2t-BIJZ2KMNd0Umb59XzK0= to ES
+[2025-04-11T02:39:31.858+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/yN44w4w6tszTKOGT3DChX2bqAbqFeG6NhV1Ks5OaPPk%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.859+0000] {logging_mixin.py:188} INFO - saving article yN44w4w6tszTKOGT3DChX2bqAbqFeG6NhV1Ks5OaPPk= to ES
+[2025-04-11T02:39:31.866+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/vNybjysl2_NctAR1ECpHKnzdSjOnB5Hpv-tfxHFSwu8%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.867+0000] {logging_mixin.py:188} INFO - saving article vNybjysl2_NctAR1ECpHKnzdSjOnB5Hpv-tfxHFSwu8= to ES
+[2025-04-11T02:39:31.874+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/3qghLP0Wjh4fQgLc8vdkmGpSpeOLjNZ74pK-14wBnLA%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:31.874+0000] {logging_mixin.py:188} INFO - saving article 3qghLP0Wjh4fQgLc8vdkmGpSpeOLjNZ74pK-14wBnLA= to ES
+[2025-04-11T02:39:31.883+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/DkxMYvTtC44svBzW_aKIK5dxsaWGu4FnR4Tm_LFcoac%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.884+0000] {logging_mixin.py:188} INFO - saving article DkxMYvTtC44svBzW_aKIK5dxsaWGu4FnR4Tm_LFcoac= to ES
+[2025-04-11T02:39:31.891+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/7S0bJvSc4PB9ppgVY7n6Y4PkunzsnLCe5mlKoWhle5Q%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.892+0000] {logging_mixin.py:188} INFO - saving article 7S0bJvSc4PB9ppgVY7n6Y4PkunzsnLCe5mlKoWhle5Q= to ES
+[2025-04-11T02:39:31.901+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/wk-G9oJ1x3QSa17gPrKSUIv8ZzgKIGgF8KhFvtaQp1s%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.901+0000] {logging_mixin.py:188} INFO - saving article wk-G9oJ1x3QSa17gPrKSUIv8ZzgKIGgF8KhFvtaQp1s= to ES
+[2025-04-11T02:39:31.909+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/pFNMdhZMexAg-wzZqzFO2B1JFjw45Y-ZoarVuxU1OZU%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.909+0000] {logging_mixin.py:188} INFO - saving article pFNMdhZMexAg-wzZqzFO2B1JFjw45Y-ZoarVuxU1OZU= to ES
+[2025-04-11T02:39:31.920+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/FDxzaaWxs9dmogQMVAsN9g9T8O79C3xNWQ6i_ykzObE%3D [status:201 duration:0.010s]
+[2025-04-11T02:39:31.921+0000] {logging_mixin.py:188} INFO - saving article FDxzaaWxs9dmogQMVAsN9g9T8O79C3xNWQ6i_ykzObE= to ES
+[2025-04-11T02:39:31.929+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/-I9Olh5yXF9gB87K4gP5gfhR6qRoMAacxfgE3s-rcsc%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.929+0000] {logging_mixin.py:188} INFO - saving article -I9Olh5yXF9gB87K4gP5gfhR6qRoMAacxfgE3s-rcsc= to ES
+[2025-04-11T02:39:31.938+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/A8oZyfqJy0gf_NhKpm8EMPaPLso8pl3nVxyldoGSgm4%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.938+0000] {logging_mixin.py:188} INFO - saving article A8oZyfqJy0gf_NhKpm8EMPaPLso8pl3nVxyldoGSgm4= to ES
+[2025-04-11T02:39:31.947+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/d7im_l_AVRPHau8bIrBHAtqgIH4XXG92QWwmLCibjlc%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.948+0000] {logging_mixin.py:188} INFO - saving article d7im_l_AVRPHau8bIrBHAtqgIH4XXG92QWwmLCibjlc= to ES
+[2025-04-11T02:39:31.958+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/JyHbPRucit8fRT1A0D7MVI8hLI0ZSrQ-TP3FSTKEFx8%3D [status:201 duration:0.009s]
+[2025-04-11T02:39:31.958+0000] {logging_mixin.py:188} INFO - saving article JyHbPRucit8fRT1A0D7MVI8hLI0ZSrQ-TP3FSTKEFx8= to ES
+[2025-04-11T02:39:31.967+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/QdwUcS4c1MwWDZQrPSuwqkH4gumXwFPHp2mDdJCjV5k%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:31.967+0000] {logging_mixin.py:188} INFO - saving article QdwUcS4c1MwWDZQrPSuwqkH4gumXwFPHp2mDdJCjV5k= to ES
+[2025-04-11T02:39:31.975+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/WVBrhBmwUi-KhSTKeHoiTPtMMFIf19JG2SGgyuyJpqY%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.976+0000] {logging_mixin.py:188} INFO - saving article WVBrhBmwUi-KhSTKeHoiTPtMMFIf19JG2SGgyuyJpqY= to ES
+[2025-04-11T02:39:31.985+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/-TY1uDf2WDs7xmF6_gT4vh8scE7JCVlmCC3k7HlQDh4%3D [status:201 duration:0.009s]
+[2025-04-11T02:39:31.986+0000] {logging_mixin.py:188} INFO - saving article -TY1uDf2WDs7xmF6_gT4vh8scE7JCVlmCC3k7HlQDh4= to ES
+[2025-04-11T02:39:31.994+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/ii0lYoNlM7uYN--uFxQD-hQoPWjBj-DzjAcOeqjvdgg%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:31.995+0000] {logging_mixin.py:188} INFO - saving article ii0lYoNlM7uYN--uFxQD-hQoPWjBj-DzjAcOeqjvdgg= to ES
+[2025-04-11T02:39:32.003+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/z6XMBJjQSmyaM6z52kfIzuOp2rgGabphsid6EUsAWZM%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.003+0000] {logging_mixin.py:188} INFO - saving article z6XMBJjQSmyaM6z52kfIzuOp2rgGabphsid6EUsAWZM= to ES
+[2025-04-11T02:39:32.011+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/SWFQcLF9RXSatOZzQL-ZUaYr3rPWIE-qvhIJamH3iUk%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.011+0000] {logging_mixin.py:188} INFO - saving article SWFQcLF9RXSatOZzQL-ZUaYr3rPWIE-qvhIJamH3iUk= to ES
+[2025-04-11T02:39:32.020+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/mSirSRZMYvVh1QYC0Z2zVg1YiMGPT5q3L8s5dM6X6dE%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.020+0000] {logging_mixin.py:188} INFO - saving article mSirSRZMYvVh1QYC0Z2zVg1YiMGPT5q3L8s5dM6X6dE= to ES
+[2025-04-11T02:39:32.027+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/dWFDbjon3le5Hs75nI0AV_fJKQr4RxVPWwtT8qerrHI%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.028+0000] {logging_mixin.py:188} INFO - saving article dWFDbjon3le5Hs75nI0AV_fJKQr4RxVPWwtT8qerrHI= to ES
+[2025-04-11T02:39:32.036+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Tu1NGkNAL7n1LzgUk8VxfG2gM3f6L88RbrrdKpdlUbI%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.036+0000] {logging_mixin.py:188} INFO - saving article Tu1NGkNAL7n1LzgUk8VxfG2gM3f6L88RbrrdKpdlUbI= to ES
+[2025-04-11T02:39:32.043+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/JyQXUoQ-FhzsEbvokEM2ev3HwEUOadTpY6KXuiJ2XDE%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.043+0000] {logging_mixin.py:188} INFO - saving article JyQXUoQ-FhzsEbvokEM2ev3HwEUOadTpY6KXuiJ2XDE= to ES
+[2025-04-11T02:39:32.052+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/ZN2fzpn_azkdrm0cuU1B0_5ogHIQ0Suxl2_81cvq3ds%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.052+0000] {logging_mixin.py:188} INFO - saving article ZN2fzpn_azkdrm0cuU1B0_5ogHIQ0Suxl2_81cvq3ds= to ES
+[2025-04-11T02:39:32.059+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/n_gsU3NwOdvTPD53iuSfo0IHjNXCxO06NiJDAHSvWkU%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.060+0000] {logging_mixin.py:188} INFO - saving article n_gsU3NwOdvTPD53iuSfo0IHjNXCxO06NiJDAHSvWkU= to ES
+[2025-04-11T02:39:32.070+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/DL7-IW1_2C0-wFEkZGiXN3VIrV-0IW7iNHrIdkM6WcU%3D [status:201 duration:0.009s]
+[2025-04-11T02:39:32.070+0000] {logging_mixin.py:188} INFO - saving article DL7-IW1_2C0-wFEkZGiXN3VIrV-0IW7iNHrIdkM6WcU= to ES
+[2025-04-11T02:39:32.077+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/NPUjP4Pz-EyqT19RxDzbUxZaJQmtb1gSX1C09GVi12M%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.078+0000] {logging_mixin.py:188} INFO - saving article NPUjP4Pz-EyqT19RxDzbUxZaJQmtb1gSX1C09GVi12M= to ES
+[2025-04-11T02:39:32.086+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/l3SpMX0wPaE01bIXciCG9xJTGjQYtcXy6mW5DV64RXc%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.087+0000] {logging_mixin.py:188} INFO - saving article l3SpMX0wPaE01bIXciCG9xJTGjQYtcXy6mW5DV64RXc= to ES
+[2025-04-11T02:39:32.094+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/EB4f4zutS2rgXVU8LxhLzXtbl95_xzLhvDmDSq9-EGQ%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.095+0000] {logging_mixin.py:188} INFO - saving article EB4f4zutS2rgXVU8LxhLzXtbl95_xzLhvDmDSq9-EGQ= to ES
+[2025-04-11T02:39:32.103+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/BrhgyTlGjAbJdD9znaFSdlJeOfku9Otss6B9eziYMaI%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.103+0000] {logging_mixin.py:188} INFO - saving article BrhgyTlGjAbJdD9znaFSdlJeOfku9Otss6B9eziYMaI= to ES
+[2025-04-11T02:39:32.112+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/S1WREXhEZ4voXAfkkAkEKkSI33Aw3emw9h0X5ZwCQf0%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.113+0000] {logging_mixin.py:188} INFO - saving article S1WREXhEZ4voXAfkkAkEKkSI33Aw3emw9h0X5ZwCQf0= to ES
+[2025-04-11T02:39:32.121+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/0OhkoEXVxAW2OtL3Rv6H2LGfnsP9FwK01gPywLr-d6k%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.121+0000] {logging_mixin.py:188} INFO - saving article 0OhkoEXVxAW2OtL3Rv6H2LGfnsP9FwK01gPywLr-d6k= to ES
+[2025-04-11T02:39:32.129+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/53fuwddntiIFEc2j5n2v6XHIhFn2FnM3LXEs5i9cE5E%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.130+0000] {logging_mixin.py:188} INFO - saving article 53fuwddntiIFEc2j5n2v6XHIhFn2FnM3LXEs5i9cE5E= to ES
+[2025-04-11T02:39:32.137+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/DTuc1TeiB1RUclEWrqitPtf2TmaXeSGAggDAprYQMvk%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.138+0000] {logging_mixin.py:188} INFO - saving article DTuc1TeiB1RUclEWrqitPtf2TmaXeSGAggDAprYQMvk= to ES
+[2025-04-11T02:39:32.146+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/3HfCbi-Xy4NrE1PVYPc12suukd4TaLaGqG98FkHX_8w%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.147+0000] {logging_mixin.py:188} INFO - saving article 3HfCbi-Xy4NrE1PVYPc12suukd4TaLaGqG98FkHX_8w= to ES
+[2025-04-11T02:39:32.156+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/byT9SGQy-iuwMdqzOqQz7koL3E7LnPy4TU0MSN0ueSU%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.156+0000] {logging_mixin.py:188} INFO - saving article byT9SGQy-iuwMdqzOqQz7koL3E7LnPy4TU0MSN0ueSU= to ES
+[2025-04-11T02:39:32.164+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/6xcJ1aVjy04lFcCJhQx58Rw8Xx_f3LkeR9rHOSldQUc%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.164+0000] {logging_mixin.py:188} INFO - saving article 6xcJ1aVjy04lFcCJhQx58Rw8Xx_f3LkeR9rHOSldQUc= to ES
+[2025-04-11T02:39:32.173+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/4gEvQk68GJucKZwq5crhuGNL3UTC1UNaiJxgGAd_raM%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.173+0000] {logging_mixin.py:188} INFO - saving article 4gEvQk68GJucKZwq5crhuGNL3UTC1UNaiJxgGAd_raM= to ES
+[2025-04-11T02:39:32.181+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/58WV__2pi3UpQe80qKK-enPAbMKeAPfQRenmj4rufmQ%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.181+0000] {logging_mixin.py:188} INFO - saving article 58WV__2pi3UpQe80qKK-enPAbMKeAPfQRenmj4rufmQ= to ES
+[2025-04-11T02:39:32.189+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/nvkKLK8gU_-yCk1_CeXrtn0_cqd-Csw0DmQAip1vWYA%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.189+0000] {logging_mixin.py:188} INFO - saving article nvkKLK8gU_-yCk1_CeXrtn0_cqd-Csw0DmQAip1vWYA= to ES
+[2025-04-11T02:39:32.197+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/9n4PDS_reL_uaJ3AVc0Sz8xNVaTtHgpA7bN_9yMY2Vk%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.198+0000] {logging_mixin.py:188} INFO - saving article 9n4PDS_reL_uaJ3AVc0Sz8xNVaTtHgpA7bN_9yMY2Vk= to ES
+[2025-04-11T02:39:32.206+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/aJN46iu_bD4ULvZbUBtEVgR2PQeBCjBlG4Gb6iAWxiw%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.206+0000] {logging_mixin.py:188} INFO - saving article aJN46iu_bD4ULvZbUBtEVgR2PQeBCjBlG4Gb6iAWxiw= to ES
+[2025-04-11T02:39:32.214+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/IjSfroxsoz6YkXU7D_xj4MdIpOfHw8f1G45gnyZU6c0%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.214+0000] {logging_mixin.py:188} INFO - saving article IjSfroxsoz6YkXU7D_xj4MdIpOfHw8f1G45gnyZU6c0= to ES
+[2025-04-11T02:39:32.223+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Goh_OryQsK7c0S_JzlCzN3KG71Uqw1o1dfbfmuKzJZQ%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.224+0000] {logging_mixin.py:188} INFO - saving article Goh_OryQsK7c0S_JzlCzN3KG71Uqw1o1dfbfmuKzJZQ= to ES
+[2025-04-11T02:39:32.238+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/mgEr_NZrvn1EX1FPrVUpihAn8stM8C3i4OHVVzVXKZQ%3D [status:201 duration:0.013s]
+[2025-04-11T02:39:32.239+0000] {logging_mixin.py:188} INFO - saving article mgEr_NZrvn1EX1FPrVUpihAn8stM8C3i4OHVVzVXKZQ= to ES
+[2025-04-11T02:39:32.253+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/nhbQYbdQokMmpnTc09_hSbIVTAcq1YxWArmuKSCkPeY%3D [status:201 duration:0.012s]
+[2025-04-11T02:39:32.254+0000] {logging_mixin.py:188} INFO - saving article nhbQYbdQokMmpnTc09_hSbIVTAcq1YxWArmuKSCkPeY= to ES
+[2025-04-11T02:39:32.271+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/gMP1_Ol4p7ebH469dddX1PAYLAXxvXFw_nMQDwueP9g%3D [status:201 duration:0.016s]
+[2025-04-11T02:39:32.272+0000] {logging_mixin.py:188} INFO - saving article gMP1_Ol4p7ebH469dddX1PAYLAXxvXFw_nMQDwueP9g= to ES
+[2025-04-11T02:39:32.286+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/LnsAhMaHsTJrO0QwoFz4U80StU7qes6RVYChmmcb_io%3D [status:201 duration:0.012s]
+[2025-04-11T02:39:32.287+0000] {logging_mixin.py:188} INFO - saving article LnsAhMaHsTJrO0QwoFz4U80StU7qes6RVYChmmcb_io= to ES
+[2025-04-11T02:39:32.302+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/pYUahVvhtFiaAdrzEEpu5tD3J3zFU3tN0e-EMifya08%3D [status:201 duration:0.014s]
+[2025-04-11T02:39:32.303+0000] {logging_mixin.py:188} INFO - saving article pYUahVvhtFiaAdrzEEpu5tD3J3zFU3tN0e-EMifya08= to ES
+[2025-04-11T02:39:32.318+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/T431dWniXzZpM0XkoXPSY3a2m0QyffMfBNMQ5DnUblc%3D [status:201 duration:0.014s]
+[2025-04-11T02:39:32.319+0000] {logging_mixin.py:188} INFO - saving article T431dWniXzZpM0XkoXPSY3a2m0QyffMfBNMQ5DnUblc= to ES
+[2025-04-11T02:39:32.333+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/NjLjJQFUSfv5GQqZRIC-vV8A4DT39BH2Obdw13HiFIk%3D [status:201 duration:0.012s]
+[2025-04-11T02:39:32.334+0000] {logging_mixin.py:188} INFO - saving article NjLjJQFUSfv5GQqZRIC-vV8A4DT39BH2Obdw13HiFIk= to ES
+[2025-04-11T02:39:32.343+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/FQ_FO25Dtr8t_0PUZCsyrUJbpE2HTrda85epuBpDuqg%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.344+0000] {logging_mixin.py:188} INFO - saving article FQ_FO25Dtr8t_0PUZCsyrUJbpE2HTrda85epuBpDuqg= to ES
+[2025-04-11T02:39:32.352+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/mmRJkKZApKvnTW02trMgFBsgO1zTaOokaAHEfm3bqtM%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.353+0000] {logging_mixin.py:188} INFO - saving article mmRJkKZApKvnTW02trMgFBsgO1zTaOokaAHEfm3bqtM= to ES
+[2025-04-11T02:39:32.360+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/-6vfTI_Pzxzr8__8qmgP2fDPlH-0yFLnULzaUzxgBzI%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.361+0000] {logging_mixin.py:188} INFO - saving article -6vfTI_Pzxzr8__8qmgP2fDPlH-0yFLnULzaUzxgBzI= to ES
+[2025-04-11T02:39:32.369+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/DFEa_DLgv3cqsni1GSpIi1z0vrGOlrtwro8Ly1Wwcd8%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.370+0000] {logging_mixin.py:188} INFO - saving article DFEa_DLgv3cqsni1GSpIi1z0vrGOlrtwro8Ly1Wwcd8= to ES
+[2025-04-11T02:39:32.378+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/sWfvpqHBK87R1_9yECj7dX-J3eifmM0V7WnqUauOafQ%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.378+0000] {logging_mixin.py:188} INFO - saving article sWfvpqHBK87R1_9yECj7dX-J3eifmM0V7WnqUauOafQ= to ES
+[2025-04-11T02:39:32.385+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/qZh7i5ENJB9f18H_GevvN3I2f_mMFDAuLS76T8Z3F88%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.385+0000] {logging_mixin.py:188} INFO - saving article qZh7i5ENJB9f18H_GevvN3I2f_mMFDAuLS76T8Z3F88= to ES
+[2025-04-11T02:39:32.392+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/T1hTH16UOQYM15Zl2qoB_dsg9P4XD0gdpaUM7aLhjaU%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.392+0000] {logging_mixin.py:188} INFO - saving article T1hTH16UOQYM15Zl2qoB_dsg9P4XD0gdpaUM7aLhjaU= to ES
+[2025-04-11T02:39:32.400+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/U2lelffK197hEvpg06BDR1QggVpSWZlsjxpnr_wxR5c%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.401+0000] {logging_mixin.py:188} INFO - saving article U2lelffK197hEvpg06BDR1QggVpSWZlsjxpnr_wxR5c= to ES
+[2025-04-11T02:39:32.409+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/mBDDuSc2GfeUI-Gkh7xl1I0CMBA21BJWn6l3kivksjQ%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.409+0000] {logging_mixin.py:188} INFO - saving article mBDDuSc2GfeUI-Gkh7xl1I0CMBA21BJWn6l3kivksjQ= to ES
+[2025-04-11T02:39:32.418+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/9k1rmB_BD7gSjtUdJmJBd7OmwmMyLnayriUfFZUWnTM%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.418+0000] {logging_mixin.py:188} INFO - saving article 9k1rmB_BD7gSjtUdJmJBd7OmwmMyLnayriUfFZUWnTM= to ES
+[2025-04-11T02:39:32.426+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/MlT-9axJFMaKu41ma0f7d3W9EUV6dKRKbZ-_Hx-toBg%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.427+0000] {logging_mixin.py:188} INFO - saving article MlT-9axJFMaKu41ma0f7d3W9EUV6dKRKbZ-_Hx-toBg= to ES
+[2025-04-11T02:39:32.436+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/0EAJxsC06SLH9swxMIAJER0BFekho4RCMR6BrnuKZl4%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.436+0000] {logging_mixin.py:188} INFO - saving article 0EAJxsC06SLH9swxMIAJER0BFekho4RCMR6BrnuKZl4= to ES
+[2025-04-11T02:39:32.445+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/bnnaTJG5nl8anfZ6ZGDdt7T0Utwzuj4chq3ARaTOt4g%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.445+0000] {logging_mixin.py:188} INFO - saving article bnnaTJG5nl8anfZ6ZGDdt7T0Utwzuj4chq3ARaTOt4g= to ES
+[2025-04-11T02:39:32.453+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/x7oPUeW52PcDvpUriYeM3bN4Fbu6pd3RyfO1DOfi-vM%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.454+0000] {logging_mixin.py:188} INFO - saving article x7oPUeW52PcDvpUriYeM3bN4Fbu6pd3RyfO1DOfi-vM= to ES
+[2025-04-11T02:39:32.463+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/gdx1Hq7GxoDZjXIR44AmvvxsREVMnCwzS8JYiAfuG48%3D [status:201 duration:0.009s]
+[2025-04-11T02:39:32.464+0000] {logging_mixin.py:188} INFO - saving article gdx1Hq7GxoDZjXIR44AmvvxsREVMnCwzS8JYiAfuG48= to ES
+[2025-04-11T02:39:32.472+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/3Hs_o1WINI5KkTFqhNvHms7mHplAU_sHeW3P4PhJbSk%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.472+0000] {logging_mixin.py:188} INFO - saving article 3Hs_o1WINI5KkTFqhNvHms7mHplAU_sHeW3P4PhJbSk= to ES
+[2025-04-11T02:39:32.480+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/9RO9ixvzNBt5E1TiNYciNX6UzALx7ZGydZ0HjqnsK44%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.481+0000] {logging_mixin.py:188} INFO - saving article 9RO9ixvzNBt5E1TiNYciNX6UzALx7ZGydZ0HjqnsK44= to ES
+[2025-04-11T02:39:32.488+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Z0ROBOPm-edc0VQfN4ooM9hXYVsuTCNFIuygdoC9psI%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.489+0000] {logging_mixin.py:188} INFO - saving article Z0ROBOPm-edc0VQfN4ooM9hXYVsuTCNFIuygdoC9psI= to ES
+[2025-04-11T02:39:32.496+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/etPPRLCdrnBTqzjhRR9l1X9EdL2D7O8KzHAPFTmoQus%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.497+0000] {logging_mixin.py:188} INFO - saving article etPPRLCdrnBTqzjhRR9l1X9EdL2D7O8KzHAPFTmoQus= to ES
+[2025-04-11T02:39:32.505+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/4QxUps1fSOkQ0ufI68wn--BWnQId4oSBMUYHE18OvKk%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.505+0000] {logging_mixin.py:188} INFO - saving article 4QxUps1fSOkQ0ufI68wn--BWnQId4oSBMUYHE18OvKk= to ES
+[2025-04-11T02:39:32.513+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/R7rW6vP8phoiyF4Ky6n2XaY_du-UzRr0_J30cGGX3Tk%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.514+0000] {logging_mixin.py:188} INFO - saving article R7rW6vP8phoiyF4Ky6n2XaY_du-UzRr0_J30cGGX3Tk= to ES
+[2025-04-11T02:39:32.524+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/jsaDC5pM14wzat8LWWrMYto7RM6QC7hw9HvPd5nT3T0%3D [status:201 duration:0.009s]
+[2025-04-11T02:39:32.524+0000] {logging_mixin.py:188} INFO - saving article jsaDC5pM14wzat8LWWrMYto7RM6QC7hw9HvPd5nT3T0= to ES
+[2025-04-11T02:39:32.531+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/BZcL2tuSQ05wX_-qln45WqpKzPwjtfvJ_KwNefpq37k%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.532+0000] {logging_mixin.py:188} INFO - saving article BZcL2tuSQ05wX_-qln45WqpKzPwjtfvJ_KwNefpq37k= to ES
+[2025-04-11T02:39:32.539+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/d7J_9MPMewpSWgk0p5IF-Jw8CEh-4w8k_sM-fwhcNy0%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.539+0000] {logging_mixin.py:188} INFO - saving article d7J_9MPMewpSWgk0p5IF-Jw8CEh-4w8k_sM-fwhcNy0= to ES
+[2025-04-11T02:39:32.547+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/NPPKH39D5n-XA37I0F761TAxIAqjR67Zb2LCl_wBOCM%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.547+0000] {logging_mixin.py:188} INFO - saving article NPPKH39D5n-XA37I0F761TAxIAqjR67Zb2LCl_wBOCM= to ES
+[2025-04-11T02:39:32.555+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/KV_iC9wjA5cF2njVds7-o9nxPXueuk9LRqllYbSjWAg%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.556+0000] {logging_mixin.py:188} INFO - saving article KV_iC9wjA5cF2njVds7-o9nxPXueuk9LRqllYbSjWAg= to ES
+[2025-04-11T02:39:32.563+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/J4dsUp_5J7531LqRwwv9zQ_JvGJHKbfOEQMTwKS9arU%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.564+0000] {logging_mixin.py:188} INFO - saving article J4dsUp_5J7531LqRwwv9zQ_JvGJHKbfOEQMTwKS9arU= to ES
+[2025-04-11T02:39:32.571+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/5PFTkgcJh0vSP09sqsCxcJbQurIXgdUiE7Fp6K-KPGQ%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.572+0000] {logging_mixin.py:188} INFO - saving article 5PFTkgcJh0vSP09sqsCxcJbQurIXgdUiE7Fp6K-KPGQ= to ES
+[2025-04-11T02:39:32.580+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/KxHZsI0fzT1g3pkNwL5bDwU408Rmgr_bXLIRyRj-9ys%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.581+0000] {logging_mixin.py:188} INFO - saving article KxHZsI0fzT1g3pkNwL5bDwU408Rmgr_bXLIRyRj-9ys= to ES
+[2025-04-11T02:39:32.589+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Itluso1rmPg76nEbm2tyTmH_SfDRyEUxa6ufrbbaHsA%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.590+0000] {logging_mixin.py:188} INFO - saving article Itluso1rmPg76nEbm2tyTmH_SfDRyEUxa6ufrbbaHsA= to ES
+[2025-04-11T02:39:32.599+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/yvyxe-L6yxU_1y3TaWsoG4kGXzBG_jEu4hE1yJ_7Ebc%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.600+0000] {logging_mixin.py:188} INFO - saving article yvyxe-L6yxU_1y3TaWsoG4kGXzBG_jEu4hE1yJ_7Ebc= to ES
+[2025-04-11T02:39:32.608+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/qIklPWtAM0KRJFR4FPjEEcv4vRpjNOX5B7sNXvA3Xps%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.609+0000] {logging_mixin.py:188} INFO - saving article qIklPWtAM0KRJFR4FPjEEcv4vRpjNOX5B7sNXvA3Xps= to ES
+[2025-04-11T02:39:32.617+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/dYurpxnohRrnLWxp5QndgTJwyA25td_vkFiFH6VLtm4%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.618+0000] {logging_mixin.py:188} INFO - saving article dYurpxnohRrnLWxp5QndgTJwyA25td_vkFiFH6VLtm4= to ES
+[2025-04-11T02:39:32.625+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/lWSENfSs9GZhuOCF_jQei4cNVGKh6Ba6Jp6jvocyqTc%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.626+0000] {logging_mixin.py:188} INFO - saving article lWSENfSs9GZhuOCF_jQei4cNVGKh6Ba6Jp6jvocyqTc= to ES
+[2025-04-11T02:39:32.634+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/pfMqD68t-lC9LqmJ7dBkAG0NJYVymhgi8EQH3qG1HTk%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.634+0000] {logging_mixin.py:188} INFO - saving article pfMqD68t-lC9LqmJ7dBkAG0NJYVymhgi8EQH3qG1HTk= to ES
+[2025-04-11T02:39:32.643+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/q2WYgJzfuIhpCI-LOL4HLU9iVXQHgF7X3owWi9e57R8%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.643+0000] {logging_mixin.py:188} INFO - saving article q2WYgJzfuIhpCI-LOL4HLU9iVXQHgF7X3owWi9e57R8= to ES
+[2025-04-11T02:39:32.651+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/lFVfCg6exfD1jFcBOpfzxxWMpSaOIM8Yu6O-t4E_4do%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.651+0000] {logging_mixin.py:188} INFO - saving article lFVfCg6exfD1jFcBOpfzxxWMpSaOIM8Yu6O-t4E_4do= to ES
+[2025-04-11T02:39:32.658+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/z5kKkXxTl9AvsE_dwEXjCMuMQ0pjnWoUGR-W7aXYHcE%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.659+0000] {logging_mixin.py:188} INFO - saving article z5kKkXxTl9AvsE_dwEXjCMuMQ0pjnWoUGR-W7aXYHcE= to ES
+[2025-04-11T02:39:32.679+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/x52XTPNTSghyrrrQdcKTgQBQrYDAbNwBPt6psw2BmJY%3D [status:201 duration:0.019s]
+[2025-04-11T02:39:32.679+0000] {logging_mixin.py:188} INFO - saving article x52XTPNTSghyrrrQdcKTgQBQrYDAbNwBPt6psw2BmJY= to ES
+[2025-04-11T02:39:32.686+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/QbyeckT3Kdg9llufoMchhqnIcHbl8ew_f9KSXHU4mnY%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.686+0000] {logging_mixin.py:188} INFO - saving article QbyeckT3Kdg9llufoMchhqnIcHbl8ew_f9KSXHU4mnY= to ES
+[2025-04-11T02:39:32.693+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/4l4aHW6n_2zZ7U42C34x3ETjTrbeo1qEdBa2HteiHew%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.694+0000] {logging_mixin.py:188} INFO - saving article 4l4aHW6n_2zZ7U42C34x3ETjTrbeo1qEdBa2HteiHew= to ES
+[2025-04-11T02:39:32.701+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/lIVkOMcdQzYr8vAm1NyZqJpxyjMC4eH8jCYYuYE6GHg%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.701+0000] {logging_mixin.py:188} INFO - saving article lIVkOMcdQzYr8vAm1NyZqJpxyjMC4eH8jCYYuYE6GHg= to ES
+[2025-04-11T02:39:32.709+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/G8CJasxdJZKBI6MvjjHOzQDVUBDGc70Hb1Ci2E8PB3I%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.709+0000] {logging_mixin.py:188} INFO - saving article G8CJasxdJZKBI6MvjjHOzQDVUBDGc70Hb1Ci2E8PB3I= to ES
+[2025-04-11T02:39:32.718+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/daThpRbGgI3WBLy4ugPeZIFwJ9FYRADYmhZ3DdVFv3I%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.718+0000] {logging_mixin.py:188} INFO - saving article daThpRbGgI3WBLy4ugPeZIFwJ9FYRADYmhZ3DdVFv3I= to ES
+[2025-04-11T02:39:32.726+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/5sLdcCPscC1JnkjAI3TQ0K91KGcmlqYdTkgEcfExuPc%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.727+0000] {logging_mixin.py:188} INFO - saving article 5sLdcCPscC1JnkjAI3TQ0K91KGcmlqYdTkgEcfExuPc= to ES
+[2025-04-11T02:39:32.735+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/S4turebZiSAsgX65lWV0tQV2QGHkPLaze30QF_cSqNE%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.735+0000] {logging_mixin.py:188} INFO - saving article S4turebZiSAsgX65lWV0tQV2QGHkPLaze30QF_cSqNE= to ES
+[2025-04-11T02:39:32.743+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/XYaQXnQs1rPfsUypw3N3jRlRmy3EIQ_3kD8W_KqO0V4%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.743+0000] {logging_mixin.py:188} INFO - saving article XYaQXnQs1rPfsUypw3N3jRlRmy3EIQ_3kD8W_KqO0V4= to ES
+[2025-04-11T02:39:32.753+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/iAbRSkpyhJS7NF5jX7fA_Oi4XZ4y57PHCHaj8XQw0OU%3D [status:201 duration:0.009s]
+[2025-04-11T02:39:32.753+0000] {logging_mixin.py:188} INFO - saving article iAbRSkpyhJS7NF5jX7fA_Oi4XZ4y57PHCHaj8XQw0OU= to ES
+[2025-04-11T02:39:32.762+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/YtQg3_GLqR8aA5OxIdqnce5SeOJ-BWwXD4GL_FOZMTE%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.763+0000] {logging_mixin.py:188} INFO - saving article YtQg3_GLqR8aA5OxIdqnce5SeOJ-BWwXD4GL_FOZMTE= to ES
+[2025-04-11T02:39:32.770+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/9eU0mhFUWYkC9aCRJcrALDLTS7TtnSQmD8r68i9sjs4%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.771+0000] {logging_mixin.py:188} INFO - saving article 9eU0mhFUWYkC9aCRJcrALDLTS7TtnSQmD8r68i9sjs4= to ES
+[2025-04-11T02:39:32.779+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/rbCmu4TEu7R4-WotVEKLPNlCFjE5SXKuDek5y6-RAAg%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.780+0000] {logging_mixin.py:188} INFO - saving article rbCmu4TEu7R4-WotVEKLPNlCFjE5SXKuDek5y6-RAAg= to ES
+[2025-04-11T02:39:32.787+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/_MWaPvYIHxvs7F4AAGCQKJ2rDl0_UjPyi81jvUSsJso%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.788+0000] {logging_mixin.py:188} INFO - saving article _MWaPvYIHxvs7F4AAGCQKJ2rDl0_UjPyi81jvUSsJso= to ES
+[2025-04-11T02:39:32.794+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/IpiVXT05c9jVHbo8dJcq5GasipNr-aIcMLMircnaizM%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.795+0000] {logging_mixin.py:188} INFO - saving article IpiVXT05c9jVHbo8dJcq5GasipNr-aIcMLMircnaizM= to ES
+[2025-04-11T02:39:32.803+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/QDck0QByPmq7SfKN8cjtbQ2PTsDZrDldOBuE7EKPQlw%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.803+0000] {logging_mixin.py:188} INFO - saving article QDck0QByPmq7SfKN8cjtbQ2PTsDZrDldOBuE7EKPQlw= to ES
+[2025-04-11T02:39:32.810+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/t7XlBiPB8XBMEgqbANB6RI2oOtpAA-dSYAVbu0w98R0%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.811+0000] {logging_mixin.py:188} INFO - saving article t7XlBiPB8XBMEgqbANB6RI2oOtpAA-dSYAVbu0w98R0= to ES
+[2025-04-11T02:39:32.818+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Ycq7S5vdGeN7MfuA1WBpmfkh06cAv03UhPKIKxPZWrw%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.819+0000] {logging_mixin.py:188} INFO - saving article Ycq7S5vdGeN7MfuA1WBpmfkh06cAv03UhPKIKxPZWrw= to ES
+[2025-04-11T02:39:32.826+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/ogBUFDRvZ9uit7rVP8nV47cWCol7hiO_gF6QTe_Yv8w%3D [status:201 duration:0.006s]
+[2025-04-11T02:39:32.827+0000] {logging_mixin.py:188} INFO - saving article ogBUFDRvZ9uit7rVP8nV47cWCol7hiO_gF6QTe_Yv8w= to ES
+[2025-04-11T02:39:32.835+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Xn8nqWfoJStWrze7WN679bocyA4c-YN0Cmu3DHxJ5io%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.836+0000] {logging_mixin.py:188} INFO - saving article Xn8nqWfoJStWrze7WN679bocyA4c-YN0Cmu3DHxJ5io= to ES
+[2025-04-11T02:39:32.843+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/btclQ-leis4uqg5UoD9VgiXok3Gflo2u5UNbhKlZK24%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.844+0000] {logging_mixin.py:188} INFO - saving article btclQ-leis4uqg5UoD9VgiXok3Gflo2u5UNbhKlZK24= to ES
+[2025-04-11T02:39:32.852+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/7QiS_TxpN3oH9U5T9bfndouPoTR08HFm9tkdHHwIDHY%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.853+0000] {logging_mixin.py:188} INFO - saving article 7QiS_TxpN3oH9U5T9bfndouPoTR08HFm9tkdHHwIDHY= to ES
+[2025-04-11T02:39:32.863+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/IhadHqyvoHOisvMtJ8HMr9BMxFtyMdE0yN8R_-YxUO8%3D [status:201 duration:0.010s]
+[2025-04-11T02:39:32.864+0000] {logging_mixin.py:188} INFO - saving article IhadHqyvoHOisvMtJ8HMr9BMxFtyMdE0yN8R_-YxUO8= to ES
+[2025-04-11T02:39:32.874+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Jq14FFi1z2MwxZ-3iX6U3f7eVCnnZ1PaaV2yHAm-N4s%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.874+0000] {logging_mixin.py:188} INFO - saving article Jq14FFi1z2MwxZ-3iX6U3f7eVCnnZ1PaaV2yHAm-N4s= to ES
+[2025-04-11T02:39:32.883+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/7OP5Yu4BNqxW9T4-YGecWo9E6odms7IF4NkLjgiESxI%3D [status:201 duration:0.009s]
+[2025-04-11T02:39:32.884+0000] {logging_mixin.py:188} INFO - saving article 7OP5Yu4BNqxW9T4-YGecWo9E6odms7IF4NkLjgiESxI= to ES
+[2025-04-11T02:39:32.892+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/31Qw2zIPLYFqgRo0eSrVbeIGTP9tgPIGC0TubSM2-RA%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.892+0000] {logging_mixin.py:188} INFO - saving article 31Qw2zIPLYFqgRo0eSrVbeIGTP9tgPIGC0TubSM2-RA= to ES
+[2025-04-11T02:39:32.901+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/eYFUPUkTtJ4GDM80MFtO4IVF4kcg825cUEfVvojAFy4%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.902+0000] {logging_mixin.py:188} INFO - saving article eYFUPUkTtJ4GDM80MFtO4IVF4kcg825cUEfVvojAFy4= to ES
+[2025-04-11T02:39:32.909+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/lEPtjf0l-lSOOsOcpi7M3H1uxZhWhtJXyMiQ8sXAF_k%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.909+0000] {logging_mixin.py:188} INFO - saving article lEPtjf0l-lSOOsOcpi7M3H1uxZhWhtJXyMiQ8sXAF_k= to ES
+[2025-04-11T02:39:32.919+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/MgnpZvNBvanZplG5OsCkovJfOR4-Cj7xt8vjGegaAvM%3D [status:201 duration:0.009s]
+[2025-04-11T02:39:32.920+0000] {logging_mixin.py:188} INFO - saving article MgnpZvNBvanZplG5OsCkovJfOR4-Cj7xt8vjGegaAvM= to ES
+[2025-04-11T02:39:32.928+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/R6oP5iGjzdJmVpy0wJxtPWVwHvPkFWdaBSeVvvf9NKk%3D [status:201 duration:0.007s]
+[2025-04-11T02:39:32.929+0000] {logging_mixin.py:188} INFO - saving article R6oP5iGjzdJmVpy0wJxtPWVwHvPkFWdaBSeVvvf9NKk= to ES
+[2025-04-11T02:39:32.937+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/VDKb-30EKKdM_xt9DZKCGtuqT1TbY3v0Igr8ZBVcRZI%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.938+0000] {logging_mixin.py:188} INFO - saving article VDKb-30EKKdM_xt9DZKCGtuqT1TbY3v0Igr8ZBVcRZI= to ES
+[2025-04-11T02:39:32.949+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/vfH5CfW6AtaWqUc26CtB2eb7tYW--Y-iPCYe16uLdQI%3D [status:201 duration:0.011s]
+[2025-04-11T02:39:32.950+0000] {logging_mixin.py:188} INFO - saving article vfH5CfW6AtaWqUc26CtB2eb7tYW--Y-iPCYe16uLdQI= to ES
+[2025-04-11T02:39:32.959+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/yQrDnr3q5AhAfXk5Vyi_hnqs0A0h5hW9lzRq5zQbHlM%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:32.961+0000] {logging_mixin.py:188} INFO - saving article yQrDnr3q5AhAfXk5Vyi_hnqs0A0h5hW9lzRq5zQbHlM= to ES
+[2025-04-11T02:39:32.975+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/yQrDnr3q5AhAfXk5Vyi_hnqs0A0h5hW9lzRq5zQbHlM%3D [status:409 duration:0.013s]
+[2025-04-11T02:39:32.976+0000] {logging_mixin.py:188} INFO - article with ID yQrDnr3q5AhAfXk5Vyi_hnqs0A0h5hW9lzRq5zQbHlM= already exists.
+[2025-04-11T02:39:32.987+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/pYS98Fc6ab9dFbEG1Fc3-SXbjJGQwgKQQgIopa_Strg%3D [status:201 duration:0.009s]
+[2025-04-11T02:39:32.987+0000] {logging_mixin.py:188} INFO - saving article pYS98Fc6ab9dFbEG1Fc3-SXbjJGQwgKQQgIopa_Strg= to ES
+[2025-04-11T02:39:33.000+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/DgyyYjBm2klEwy8yBeM5-gPgCkFI7wV6p70zHDJ7hD0%3D [status:201 duration:0.011s]
+[2025-04-11T02:39:33.001+0000] {logging_mixin.py:188} INFO - saving article DgyyYjBm2klEwy8yBeM5-gPgCkFI7wV6p70zHDJ7hD0= to ES
+[2025-04-11T02:39:33.006+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/vfH5CfW6AtaWqUc26CtB2eb7tYW--Y-iPCYe16uLdQI%3D [status:409 duration:0.004s]
+[2025-04-11T02:39:33.007+0000] {logging_mixin.py:188} INFO - article with ID vfH5CfW6AtaWqUc26CtB2eb7tYW--Y-iPCYe16uLdQI= already exists.
+[2025-04-11T02:39:33.022+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/jmCFkOj5t3TT2PdoPgdlCjz-w0CAS21YqfGDk_-2abM%3D [status:201 duration:0.014s]
+[2025-04-11T02:39:33.022+0000] {logging_mixin.py:188} INFO - saving article jmCFkOj5t3TT2PdoPgdlCjz-w0CAS21YqfGDk_-2abM= to ES
+[2025-04-11T02:39:33.045+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/dPNjUYP6xe1YJCS8ua3MfktgpHk6KCrvNopkOHFkhHc%3D [status:201 duration:0.021s]
+[2025-04-11T02:39:33.045+0000] {logging_mixin.py:188} INFO - saving article dPNjUYP6xe1YJCS8ua3MfktgpHk6KCrvNopkOHFkhHc= to ES
+[2025-04-11T02:39:33.055+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/MgBKnHtshaOHf7d7w7EOGe2vr9JeIN9qyJNYoM--4rY%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:33.055+0000] {logging_mixin.py:188} INFO - saving article MgBKnHtshaOHf7d7w7EOGe2vr9JeIN9qyJNYoM--4rY= to ES
+[2025-04-11T02:39:33.063+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/JRd0XfWV2blxLfdAgi38-kMOIIeTbjFCOcWRsIIuTe0%3D [status:201 duration:0.008s]
+[2025-04-11T02:39:33.064+0000] {logging_mixin.py:188} INFO - saving article JRd0XfWV2blxLfdAgi38-kMOIIeTbjFCOcWRsIIuTe0= to ES
+[2025-04-11T02:39:33.065+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-04-11T02:39:33.065+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-04-11T02:39:33.085+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=finScraping, task_id=store_articles, run_id=manual__2025-04-11T02:38:25.613812+00:00, execution_date=20250411T023825, start_date=20250411T023931, end_date=20250411T023933
+[2025-04-11T02:39:33.148+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-04-11T02:39:33.175+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-11T02:39:33.178+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

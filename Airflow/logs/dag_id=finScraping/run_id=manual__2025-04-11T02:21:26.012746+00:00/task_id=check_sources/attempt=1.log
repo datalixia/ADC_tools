@@ -1,0 +1,17 @@
+[2025-04-11T02:21:29.782+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-04-11T02:21:29.806+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: finScraping.check_sources manual__2025-04-11T02:21:26.012746+00:00 [queued]>
+[2025-04-11T02:21:29.815+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: finScraping.check_sources manual__2025-04-11T02:21:26.012746+00:00 [queued]>
+[2025-04-11T02:21:29.815+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-04-11T02:21:29.829+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): check_sources> on 2025-04-11 02:21:26.012746+00:00
+[2025-04-11T02:21:29.836+0000] {standard_task_runner.py:63} INFO - Started process 71 to run task
+[2025-04-11T02:21:29.839+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'finScraping', 'check_sources', 'manual__2025-04-11T02:21:26.012746+00:00', '--job-id', '85', '--raw', '--subdir', 'DAGS_FOLDER/finScrapingDag.py', '--cfg-path', '/tmp/tmpb_9y06lx']
+[2025-04-11T02:21:29.840+0000] {standard_task_runner.py:91} INFO - Job 85: Subtask check_sources
+[2025-04-11T02:21:29.886+0000] {task_command.py:426} INFO - Running <TaskInstance: finScraping.check_sources manual__2025-04-11T02:21:26.012746+00:00 [running]> on host c2f0ca47720d
+[2025-04-11T02:21:29.993+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='finScraping' AIRFLOW_CTX_TASK_ID='check_sources' AIRFLOW_CTX_EXECUTION_DATE='2025-04-11T02:21:26.012746+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-11T02:21:26.012746+00:00'
+[2025-04-11T02:21:29.994+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-04-11T02:21:29.995+0000] {python.py:237} INFO - Done. Returned value was: [{'id': 'ZtQPFpYBWUzV57vGJyqG', 'name': 'nationalcrimeagency', 'url': 'nationalcrimeagency.gov.uk', 'state': True, 'frequency': 6, 'last_execution': 0}, {'id': 'ZdQOFpYBWUzV57vG-irh', 'name': 'austrac', 'url': 'austrac.gov.au', 'state': True, 'frequency': 6, 'last_execution': 0}]
+[2025-04-11T02:21:29.995+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-04-11T02:21:30.037+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=finScraping, task_id=check_sources, run_id=manual__2025-04-11T02:21:26.012746+00:00, execution_date=20250411T022126, start_date=20250411T022129, end_date=20250411T022130
+[2025-04-11T02:21:30.092+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-04-11T02:21:30.183+0000] {taskinstance.py:3498} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2025-04-11T02:21:30.185+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

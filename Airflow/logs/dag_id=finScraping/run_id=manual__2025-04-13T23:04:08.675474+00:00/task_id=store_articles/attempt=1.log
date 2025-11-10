@@ -1,0 +1,101 @@
+[2025-04-13T23:05:05.590+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-04-13T23:05:05.625+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: finScraping.store_articles manual__2025-04-13T23:04:08.675474+00:00 [queued]>
+[2025-04-13T23:05:05.637+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: finScraping.store_articles manual__2025-04-13T23:04:08.675474+00:00 [queued]>
+[2025-04-13T23:05:05.637+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-04-13T23:05:05.654+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): store_articles> on 2025-04-13 23:04:08.675474+00:00
+[2025-04-13T23:05:05.662+0000] {standard_task_runner.py:63} INFO - Started process 2649 to run task
+[2025-04-13T23:05:05.666+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'finScraping', 'store_articles', 'manual__2025-04-13T23:04:08.675474+00:00', '--job-id', '361', '--raw', '--subdir', 'DAGS_FOLDER/finScrapingDag.py', '--cfg-path', '/tmp/tmpcq5uraab']
+[2025-04-13T23:05:05.668+0000] {standard_task_runner.py:91} INFO - Job 361: Subtask store_articles
+[2025-04-13T23:05:05.727+0000] {task_command.py:426} INFO - Running <TaskInstance: finScraping.store_articles manual__2025-04-13T23:04:08.675474+00:00 [running]> on host fb0574a6d4a1
+[2025-04-13T23:05:05.875+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='finScraping' AIRFLOW_CTX_TASK_ID='store_articles' AIRFLOW_CTX_EXECUTION_DATE='2025-04-13T23:04:08.675474+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-13T23:04:08.675474+00:00'
+[2025-04-13T23:05:05.876+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-04-13T23:05:05.974+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/J4dsUp_5J7531LqRwwv9zQ_JvGJHKbfOEQMTwKS9arU%3D [status:409 duration:0.019s]
+[2025-04-13T23:05:05.975+0000] {logging_mixin.py:188} INFO - article with ID J4dsUp_5J7531LqRwwv9zQ_JvGJHKbfOEQMTwKS9arU= already exists.
+[2025-04-13T23:05:05.980+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/5PFTkgcJh0vSP09sqsCxcJbQurIXgdUiE7Fp6K-KPGQ%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:05.981+0000] {logging_mixin.py:188} INFO - article with ID 5PFTkgcJh0vSP09sqsCxcJbQurIXgdUiE7Fp6K-KPGQ= already exists.
+[2025-04-13T23:05:05.986+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/KxHZsI0fzT1g3pkNwL5bDwU408Rmgr_bXLIRyRj-9ys%3D [status:409 duration:0.005s]
+[2025-04-13T23:05:05.987+0000] {logging_mixin.py:188} INFO - article with ID KxHZsI0fzT1g3pkNwL5bDwU408Rmgr_bXLIRyRj-9ys= already exists.
+[2025-04-13T23:05:05.994+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Itluso1rmPg76nEbm2tyTmH_SfDRyEUxa6ufrbbaHsA%3D [status:409 duration:0.006s]
+[2025-04-13T23:05:05.994+0000] {logging_mixin.py:188} INFO - article with ID Itluso1rmPg76nEbm2tyTmH_SfDRyEUxa6ufrbbaHsA= already exists.
+[2025-04-13T23:05:05.998+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/yvyxe-L6yxU_1y3TaWsoG4kGXzBG_jEu4hE1yJ_7Ebc%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:05.998+0000] {logging_mixin.py:188} INFO - article with ID yvyxe-L6yxU_1y3TaWsoG4kGXzBG_jEu4hE1yJ_7Ebc= already exists.
+[2025-04-13T23:05:06.002+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/qIklPWtAM0KRJFR4FPjEEcv4vRpjNOX5B7sNXvA3Xps%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.003+0000] {logging_mixin.py:188} INFO - article with ID qIklPWtAM0KRJFR4FPjEEcv4vRpjNOX5B7sNXvA3Xps= already exists.
+[2025-04-13T23:05:06.006+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/dYurpxnohRrnLWxp5QndgTJwyA25td_vkFiFH6VLtm4%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.007+0000] {logging_mixin.py:188} INFO - article with ID dYurpxnohRrnLWxp5QndgTJwyA25td_vkFiFH6VLtm4= already exists.
+[2025-04-13T23:05:06.010+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/lWSENfSs9GZhuOCF_jQei4cNVGKh6Ba6Jp6jvocyqTc%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.011+0000] {logging_mixin.py:188} INFO - article with ID lWSENfSs9GZhuOCF_jQei4cNVGKh6Ba6Jp6jvocyqTc= already exists.
+[2025-04-13T23:05:06.014+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/pfMqD68t-lC9LqmJ7dBkAG0NJYVymhgi8EQH3qG1HTk%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.014+0000] {logging_mixin.py:188} INFO - article with ID pfMqD68t-lC9LqmJ7dBkAG0NJYVymhgi8EQH3qG1HTk= already exists.
+[2025-04-13T23:05:06.018+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/q2WYgJzfuIhpCI-LOL4HLU9iVXQHgF7X3owWi9e57R8%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.018+0000] {logging_mixin.py:188} INFO - article with ID q2WYgJzfuIhpCI-LOL4HLU9iVXQHgF7X3owWi9e57R8= already exists.
+[2025-04-13T23:05:06.022+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/lFVfCg6exfD1jFcBOpfzxxWMpSaOIM8Yu6O-t4E_4do%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.023+0000] {logging_mixin.py:188} INFO - article with ID lFVfCg6exfD1jFcBOpfzxxWMpSaOIM8Yu6O-t4E_4do= already exists.
+[2025-04-13T23:05:06.029+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/z5kKkXxTl9AvsE_dwEXjCMuMQ0pjnWoUGR-W7aXYHcE%3D [status:409 duration:0.005s]
+[2025-04-13T23:05:06.029+0000] {logging_mixin.py:188} INFO - article with ID z5kKkXxTl9AvsE_dwEXjCMuMQ0pjnWoUGR-W7aXYHcE= already exists.
+[2025-04-13T23:05:06.033+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/x52XTPNTSghyrrrQdcKTgQBQrYDAbNwBPt6psw2BmJY%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.034+0000] {logging_mixin.py:188} INFO - article with ID x52XTPNTSghyrrrQdcKTgQBQrYDAbNwBPt6psw2BmJY= already exists.
+[2025-04-13T23:05:06.037+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/QbyeckT3Kdg9llufoMchhqnIcHbl8ew_f9KSXHU4mnY%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.038+0000] {logging_mixin.py:188} INFO - article with ID QbyeckT3Kdg9llufoMchhqnIcHbl8ew_f9KSXHU4mnY= already exists.
+[2025-04-13T23:05:06.042+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/4l4aHW6n_2zZ7U42C34x3ETjTrbeo1qEdBa2HteiHew%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.042+0000] {logging_mixin.py:188} INFO - article with ID 4l4aHW6n_2zZ7U42C34x3ETjTrbeo1qEdBa2HteiHew= already exists.
+[2025-04-13T23:05:06.047+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/lIVkOMcdQzYr8vAm1NyZqJpxyjMC4eH8jCYYuYE6GHg%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.048+0000] {logging_mixin.py:188} INFO - article with ID lIVkOMcdQzYr8vAm1NyZqJpxyjMC4eH8jCYYuYE6GHg= already exists.
+[2025-04-13T23:05:06.052+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/G8CJasxdJZKBI6MvjjHOzQDVUBDGc70Hb1Ci2E8PB3I%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.052+0000] {logging_mixin.py:188} INFO - article with ID G8CJasxdJZKBI6MvjjHOzQDVUBDGc70Hb1Ci2E8PB3I= already exists.
+[2025-04-13T23:05:06.057+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/daThpRbGgI3WBLy4ugPeZIFwJ9FYRADYmhZ3DdVFv3I%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.058+0000] {logging_mixin.py:188} INFO - article with ID daThpRbGgI3WBLy4ugPeZIFwJ9FYRADYmhZ3DdVFv3I= already exists.
+[2025-04-13T23:05:06.064+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/5sLdcCPscC1JnkjAI3TQ0K91KGcmlqYdTkgEcfExuPc%3D [status:409 duration:0.005s]
+[2025-04-13T23:05:06.064+0000] {logging_mixin.py:188} INFO - article with ID 5sLdcCPscC1JnkjAI3TQ0K91KGcmlqYdTkgEcfExuPc= already exists.
+[2025-04-13T23:05:06.068+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/S4turebZiSAsgX65lWV0tQV2QGHkPLaze30QF_cSqNE%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.069+0000] {logging_mixin.py:188} INFO - article with ID S4turebZiSAsgX65lWV0tQV2QGHkPLaze30QF_cSqNE= already exists.
+[2025-04-13T23:05:06.073+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/XYaQXnQs1rPfsUypw3N3jRlRmy3EIQ_3kD8W_KqO0V4%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.074+0000] {logging_mixin.py:188} INFO - article with ID XYaQXnQs1rPfsUypw3N3jRlRmy3EIQ_3kD8W_KqO0V4= already exists.
+[2025-04-13T23:05:06.079+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/XX_5DX28X9KqC3j2tRyukAxErDFZ6I_wgyCijOmRtw0%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.080+0000] {logging_mixin.py:188} INFO - article with ID XX_5DX28X9KqC3j2tRyukAxErDFZ6I_wgyCijOmRtw0= already exists.
+[2025-04-13T23:05:06.084+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/26-Jn72WQ0T-_dXSG7c6mwsWVHmaCkMBBuh-xbYwCnc%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.084+0000] {logging_mixin.py:188} INFO - article with ID 26-Jn72WQ0T-_dXSG7c6mwsWVHmaCkMBBuh-xbYwCnc= already exists.
+[2025-04-13T23:05:06.088+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/I6rcRYLU9axIWCtdE-skhR5YG6O946S1BMdL_41EVkY%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.089+0000] {logging_mixin.py:188} INFO - article with ID I6rcRYLU9axIWCtdE-skhR5YG6O946S1BMdL_41EVkY= already exists.
+[2025-04-13T23:05:06.094+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/HQwtbqLXV4vD9MIah8vFkvK3w0pwUcwvgGhcea0zVgw%3D [status:409 duration:0.005s]
+[2025-04-13T23:05:06.095+0000] {logging_mixin.py:188} INFO - article with ID HQwtbqLXV4vD9MIah8vFkvK3w0pwUcwvgGhcea0zVgw= already exists.
+[2025-04-13T23:05:06.100+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/aHIk7UvIFjhYFak6inMpC_d8BGyBqbkXTTMMiEaURPM%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.101+0000] {logging_mixin.py:188} INFO - article with ID aHIk7UvIFjhYFak6inMpC_d8BGyBqbkXTTMMiEaURPM= already exists.
+[2025-04-13T23:05:06.106+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/bdbXd5QFa6krxTxDpd0bAUnX6I5Cc-iA1pO67E_0WGA%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.106+0000] {logging_mixin.py:188} INFO - article with ID bdbXd5QFa6krxTxDpd0bAUnX6I5Cc-iA1pO67E_0WGA= already exists.
+[2025-04-13T23:05:06.112+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/PzUjrBaDMOa0KbI9KyW2xtfvr1ZMGp8f6vU5jSu0Uxg%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.113+0000] {logging_mixin.py:188} INFO - article with ID PzUjrBaDMOa0KbI9KyW2xtfvr1ZMGp8f6vU5jSu0Uxg= already exists.
+[2025-04-13T23:05:06.117+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/I9LC4o8ty8P_oENxVtcDKfEZxw8vmnJHnv5OMxEfxtc%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.118+0000] {logging_mixin.py:188} INFO - article with ID I9LC4o8ty8P_oENxVtcDKfEZxw8vmnJHnv5OMxEfxtc= already exists.
+[2025-04-13T23:05:06.122+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/pIMXKG4ERegHCQ_jAdo3zrMKFcTfOqbAao2c3gXA_YM%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.123+0000] {logging_mixin.py:188} INFO - article with ID pIMXKG4ERegHCQ_jAdo3zrMKFcTfOqbAao2c3gXA_YM= already exists.
+[2025-04-13T23:05:06.128+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/T7uc9pcqEAzRL-6TsusYX0zylkkGl56ioqxOXBdZJU8%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.129+0000] {logging_mixin.py:188} INFO - article with ID T7uc9pcqEAzRL-6TsusYX0zylkkGl56ioqxOXBdZJU8= already exists.
+[2025-04-13T23:05:06.133+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/sLA9dEqF9EWccUN_4ZbdklopmgauekJWFckDyXw2uPs%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.134+0000] {logging_mixin.py:188} INFO - article with ID sLA9dEqF9EWccUN_4ZbdklopmgauekJWFckDyXw2uPs= already exists.
+[2025-04-13T23:05:06.138+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/WAreDxMrQijqT-GiifMY8kAv3NJoLtBXo3hf7UMS-fM%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.139+0000] {logging_mixin.py:188} INFO - article with ID WAreDxMrQijqT-GiifMY8kAv3NJoLtBXo3hf7UMS-fM= already exists.
+[2025-04-13T23:05:06.144+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/aMDSNyFMRg2qtIXohmL9VPeywwBAGbxYwKfUQUdriE8%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.145+0000] {logging_mixin.py:188} INFO - article with ID aMDSNyFMRg2qtIXohmL9VPeywwBAGbxYwKfUQUdriE8= already exists.
+[2025-04-13T23:05:06.149+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/cpgw6FvlQaEJlosLg14EeTKS27bCDj5zpBPut4a0JAw%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.150+0000] {logging_mixin.py:188} INFO - article with ID cpgw6FvlQaEJlosLg14EeTKS27bCDj5zpBPut4a0JAw= already exists.
+[2025-04-13T23:05:06.153+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/y4ieBfkSdaadL7D37krzuS2umg5uz89Ze9qJOkn7JnM%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.154+0000] {logging_mixin.py:188} INFO - article with ID y4ieBfkSdaadL7D37krzuS2umg5uz89Ze9qJOkn7JnM= already exists.
+[2025-04-13T23:05:06.159+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/2lZ7XwnwVaZG3w50xgFHhZMKjSB7IpZIaBU_hyub-c8%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.160+0000] {logging_mixin.py:188} INFO - article with ID 2lZ7XwnwVaZG3w50xgFHhZMKjSB7IpZIaBU_hyub-c8= already exists.
+[2025-04-13T23:05:06.164+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/khKMf8IvP2hemRRFCgvYVeJYqv_5NRZjJgsICkp8UYg%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.165+0000] {logging_mixin.py:188} INFO - article with ID khKMf8IvP2hemRRFCgvYVeJYqv_5NRZjJgsICkp8UYg= already exists.
+[2025-04-13T23:05:06.169+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/9eot0eY-clK6PExP3mee66vCxAcjfqq5M2YBgupFTLo%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.170+0000] {logging_mixin.py:188} INFO - article with ID 9eot0eY-clK6PExP3mee66vCxAcjfqq5M2YBgupFTLo= already exists.
+[2025-04-13T23:05:06.175+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/alUXdu6t2r5dVS6kA_q6qoGCX28F19lFQ5zNTn3AkCk%3D [status:409 duration:0.004s]
+[2025-04-13T23:05:06.176+0000] {logging_mixin.py:188} INFO - article with ID alUXdu6t2r5dVS6kA_q6qoGCX28F19lFQ5zNTn3AkCk= already exists.
+[2025-04-13T23:05:06.180+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/dLsF0g-Tf3RMv5MMxhdBRrgwuc8Ke6AdC6PBG2E63Lo%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.181+0000] {logging_mixin.py:188} INFO - article with ID dLsF0g-Tf3RMv5MMxhdBRrgwuc8Ke6AdC6PBG2E63Lo= already exists.
+[2025-04-13T23:05:06.185+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_create/Z1-laS4wcjH0ZgiLhuhGJMTkpSrknsHuMg6HgSFFCy4%3D [status:409 duration:0.003s]
+[2025-04-13T23:05:06.186+0000] {logging_mixin.py:188} INFO - article with ID Z1-laS4wcjH0ZgiLhuhGJMTkpSrknsHuMg6HgSFFCy4= already exists.
+[2025-04-13T23:05:06.186+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-04-13T23:05:06.186+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-04-13T23:05:06.200+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=finScraping, task_id=store_articles, run_id=manual__2025-04-13T23:04:08.675474+00:00, execution_date=20250413T230408, start_date=20250413T230505, end_date=20250413T230506
+[2025-04-13T23:05:06.239+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-04-13T23:05:06.271+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-13T23:05:06.273+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,359 @@
+[2025-04-11T02:30:22.840+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-04-11T02:30:22.863+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: finScraping.store_articles manual__2025-04-11T02:28:57.123168+00:00 [queued]>
+[2025-04-11T02:30:22.871+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: finScraping.store_articles manual__2025-04-11T02:28:57.123168+00:00 [queued]>
+[2025-04-11T02:30:22.872+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-04-11T02:30:22.887+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): store_articles> on 2025-04-11 02:28:57.123168+00:00
+[2025-04-11T02:30:22.894+0000] {standard_task_runner.py:63} INFO - Started process 275 to run task
+[2025-04-11T02:30:22.897+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'finScraping', 'store_articles', 'manual__2025-04-11T02:28:57.123168+00:00', '--job-id', '131', '--raw', '--subdir', 'DAGS_FOLDER/finScrapingDag.py', '--cfg-path', '/tmp/tmp6cjak5ai']
+[2025-04-11T02:30:22.898+0000] {standard_task_runner.py:91} INFO - Job 131: Subtask store_articles
+[2025-04-11T02:30:23.000+0000] {task_command.py:426} INFO - Running <TaskInstance: finScraping.store_articles manual__2025-04-11T02:28:57.123168+00:00 [running]> on host c2f0ca47720d
+[2025-04-11T02:30:23.157+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='finScraping' AIRFLOW_CTX_TASK_ID='store_articles' AIRFLOW_CTX_EXECUTION_DATE='2025-04-11T02:28:57.123168+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-11T02:28:57.123168+00:00'
+[2025-04-11T02:30:23.158+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-04-11T02:30:23.565+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/3eOJbpAa9L6_Zb86leN1hz2ypppmHFKJ0OwvUPm-EpA%3D [status:201 duration:0.368s]
+[2025-04-11T02:30:23.566+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-machinize-hundreds-of-barbershops-targeted-in-nca-coordinated-crackdown to ES
+[2025-04-11T02:30:23.579+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/-_BW2UtdhFNsVZ5AqCVBExY_Gto-M127QqQEaLUyVpM%3D [status:201 duration:0.013s]
+[2025-04-11T02:30:23.580+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/preston-man-charged-with-assisting-people-smuggling-kingpin to ES
+[2025-04-11T02:30:23.594+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/4EHAv6PGpV02Ea3qKDM3i5RQzMCmHBIHTKPNKn-SAbE%3D [status:201 duration:0.013s]
+[2025-04-11T02:30:23.594+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/ocg-member-sentenced-for-cannabis-smuggled-in-floor-of-lorry to ES
+[2025-04-11T02:30:23.607+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/RMrjSSyJy2t2JLirWQPoGy6Hm2oOOuWOKP8VLi1dtCM%3D [status:201 duration:0.012s]
+[2025-04-11T02:30:23.608+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/jailed-for-18-years-smuggler-hid-cocaine-under-dry-ice-he-claimed-was-for-uk-hospital to ES
+[2025-04-11T02:30:23.619+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/aKt8fuUcuks_dyiq0hKdC4p4c3RgwTyCjSuhNBTbCbk%3D [status:201 duration:0.010s]
+[2025-04-11T02:30:23.619+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/nca-secures-first-convictions-for-breach-of-uk-sanctions to ES
+[2025-04-11T02:30:23.627+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/ZJFf34BJ4LGIM9z26PTUzN9cikolRPNOa8S4Hya--Dw%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:23.628+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-venetic-drug-dealer-caught-with-five-kilos-of-cocaine-found-to-have-imported-a-further-17m-worth to ES
+[2025-04-11T02:30:23.636+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/P78zzP1YBHdSwOnwu9kDXdgl-oQPHS2G2RdJ4sA0B_E%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:23.637+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/career-criminal-back-behind-bars-after-fourth-drug-supply-conviction to ES
+[2025-04-11T02:30:23.646+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/okGTjvCcKP7fAziMmluCOF6adR_m7Td4UfjfbCKiB6I%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:23.647+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/four-arrested-as-nca-works-with-libyan-authorities-to-target-people-smugglers-in-north-africa to ES
+[2025-04-11T02:30:23.655+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/Zc7haY57N9cIZJ4zuLNg88nNgY8nLcalKLAs2KHqUuU%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:23.656+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/dark-web-site-taken-offline-as-information-on-63-users-passed-to-uk-forces to ES
+[2025-04-11T02:30:23.664+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/4tttmXTmUa4K1oH98u8WnAEp4jBIlnE_R6ZF3wJRC00%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:23.665+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-venetic-crime-linchpin-who-brokered-multi-million-pound-drugs-deals-is-jailed to ES
+[2025-04-11T02:30:23.674+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/zOZgtLILd4OSoNYcskdI3fmb2s7M-XvL0wIhT8GUE4A%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:23.675+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-charged-in-nca-investigation-over-cocaine-stash-in-electric-wheelchair to ES
+[2025-04-11T02:30:23.683+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/TLFTJEsapu8DFoKUkUFGApgC8ghDymj5HApNrF7BPxQ%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:23.684+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-stovewood-brothers-jailed-for-31-years-for-raping-girls to ES
+[2025-04-11T02:30:23.693+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/5A1i1J-JWSQ-plidQiNhGJjQm_Vdf6EjpNGYCB5Z_zY%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:23.693+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/sadistic-online-harm-groups-putting-people-at-unprecedented-risk-warns-the-nca to ES
+[2025-04-11T02:30:23.701+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/AIURiiucVUuHXEjlOjlfag6un69co9gJE6PL0eKeixA%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:23.702+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/three-arrested-in-north-lincolnshire-as-part-of-nca-people-smuggling-investigation to ES
+[2025-04-11T02:30:23.710+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/TGAy5Y7dUbCkfrbOD9OmN68_GZUb0S-thB7xrvF1v_Y%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:23.710+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-charged-over-warwickshire-firearms-find to ES
+[2025-04-11T02:30:23.732+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/1FNmuI_jPjkaNuxX7A4v5MqPeOr5v6Zxtk6hMOu2X-c%3D [status:201 duration:0.021s]
+[2025-04-11T02:30:23.733+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/nca-investigation-sees-two-arrested-after-border-force-recover-cocaine-from-plane to ES
+[2025-04-11T02:30:23.751+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/K9oICNkRQIlCSazKSilobRPKDsj09Fv6rjfvsnoV_vM%3D [status:201 duration:0.017s]
+[2025-04-11T02:30:23.752+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/national-crime-agency-launches-online-campaign-to-tackle-sextortion-among-young-teenage-boys to ES
+[2025-04-11T02:30:23.769+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/E3ySsBi_62BIxRtFo8hyQRJddDBB8EQg9GZPyOpcwng%3D [status:201 duration:0.015s]
+[2025-04-11T02:30:23.770+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-arrested-in-co-armagh-as-nca-investigation-into-cannabis-importation-continues to ES
+[2025-04-11T02:30:23.788+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/f4N2Ey7N8rG-kLq7iiWSuSLkx1KbNXj-HNi67ewxJp0%3D [status:201 duration:0.016s]
+[2025-04-11T02:30:23.790+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-charged-in-nca-investigation-after-1m-seized-by-border-force-at-heathrow-airport to ES
+[2025-04-11T02:30:23.810+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/gdufGrx-iujoeRwzedG668K-R3xgJQkkTSOl9ikP0Rg%3D [status:201 duration:0.018s]
+[2025-04-11T02:30:23.811+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-henhouse-422-arrests-and-7-5m-seized-in-national-crackdown-on-fraud to ES
+[2025-04-11T02:30:23.831+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/jCVG70LKReKy_q6O9FzB87tBrw7VcakILjtBzlKWaps%3D [status:201 duration:0.017s]
+[2025-04-11T02:30:23.832+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/northamptonshire-man-threatened-to-send-victims-indecent-images-to-her-family-members to ES
+[2025-04-11T02:30:23.852+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/u9ooWnWXPTDEAi8DUNtiJy_NkGkkUEci4lgFU9yxCaY%3D [status:201 duration:0.018s]
+[2025-04-11T02:30:23.853+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/100m-cocaine-plotters-guilty-of-at-sea-smuggling-bid to ES
+[2025-04-11T02:30:23.871+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/IKqk4vVTzp8tMLl_NQ-8BJ9QQ4vjuUMQT91yzhh3GKs%3D [status:201 duration:0.016s]
+[2025-04-11T02:30:23.873+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/a-prison-break-a-190m-cocaine-plot-money-laundered-through-gold-two-jailed-in-latest-nca-operation-venetic-case to ES
+[2025-04-11T02:30:23.897+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/WVnKc2-swl8sJ3KsrZ0hzkEtv6Ju5Od_lRVbaj7ERz8%3D [status:201 duration:0.022s]
+[2025-04-11T02:30:23.898+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-jailed-over-gun-parts-hidden-in-48-year-old-car-from-pakistan to ES
+[2025-04-11T02:30:23.915+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/URURzG-dFvmZKpfFRxMHL_gR_ETJgKqiDaPLprGDtJM%3D [status:201 duration:0.015s]
+[2025-04-11T02:30:23.916+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/smugglers-prevented-from-bringing-27-tonnes-of-cannabis-into-the-uk-in-2024 to ES
+[2025-04-11T02:30:23.934+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/ZGHr2n_JWia2xVU0oTohsKrmTc1der1ujRdlhnAN72E%3D [status:201 duration:0.016s]
+[2025-04-11T02:30:23.936+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-stovewood-two-men-jailed-for-almost-40-years-for-raping-girls-at-parties to ES
+[2025-04-11T02:30:23.952+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/7jXRpS7rw5GJOLWBY9FmRFzS1BbzCzCPxE8SjVkUMD0%3D [status:201 duration:0.014s]
+[2025-04-11T02:30:23.953+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/suspected-people-smuggler-wanted-in-italy-arrested-by-the-nca to ES
+[2025-04-11T02:30:23.966+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/Sys2yS31AAz9dyAeH5fd93to0Q43gJbFGGAQo8Jr1mA%3D [status:201 duration:0.011s]
+[2025-04-11T02:30:23.967+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-stovewood-men-found-guilty-of-raping-girls-at-parties to ES
+[2025-04-11T02:30:23.977+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/GHGSXJ2L03VcOODi8EhPZWzLbm_8yzWbS1TSzQIHWDA%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:23.977+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/nca-targets-convicted-people-smugglers-with-serious-crime-prevention-orders to ES
+[2025-04-11T02:30:23.986+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/bPx5GXDiwuTH4xv_-ka2tYZtVON5NjSVxYUjkVpZuWs%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:23.986+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/nca-warning-over-money-laundering-linked-to-people-smuggling to ES
+[2025-04-11T02:30:23.996+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/Jh-7LQw37Wa5WLCsDf4oqwjkpHofVsf58TKeELn5k_c%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:23.996+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/firearms-and-ammunition-seized-from-suv-at-dover to ES
+[2025-04-11T02:30:24.005+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/vYdnMw3914VsSJcoW0V595mKKj-bJ_r2elBJGmb5Uq0%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.006+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-who-downloaded-child-sexual-abuse-images-as-a-teen-is-convicted to ES
+[2025-04-11T02:30:24.015+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/aDOa7EeBkcdXWURERhIx0EQUkFYHXqOZoE8OnDQaCsM%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.015+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/nca-investigation-leads-to-conviction-of-gang-who-forced-migrants-to-work-in-cannabis-farms to ES
+[2025-04-11T02:30:24.023+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/cIj1CSCNPI0Yq4n0N9ZFhAEy3iet7P4XEwx6mBCu-n8%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.024+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/people-smuggling-fixer-among-trio-jailed-over-channel-small-boat-crossings to ES
+[2025-04-11T02:30:24.033+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/JVCnL0XaIHe9R7B0d3sqAoxieL4gPvUz-UtRcNqTv98%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.033+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-who-fled-to-spain-after-being-charged-with-small-boat-people-smuggling-convicted to ES
+[2025-04-11T02:30:24.041+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/B6iapi8ZfAzgufvgM_ck5eKKM4-RGvh2UncQap5DeE8%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.042+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/heathrow-passenger-charged-following-400-000-cash-find-in-suitcase to ES
+[2025-04-11T02:30:24.050+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/cWI-jOP5EQqV9WpfOHknfIUHK7JYtDpL--i8G2fdKwM%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.051+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/alleged-members-of-small-boat-people-smuggling-network-arrested-in-uk to ES
+[2025-04-11T02:30:24.058+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/ZOu_xnC2gEqg0KfJNmXQcoNSFW8w5v6Qoc-a8pgu0b8%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.058+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-jailed-after-london-drugs-and-cash-seizure to ES
+[2025-04-11T02:30:24.066+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/WI5GWzP18J7EOq0i8dT3jWymWQzldP3WVivPuAU4_pc%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.066+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/four-arrested-over-80m-cocaine-haul to ES
+[2025-04-11T02:30:24.074+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/CLmmjOI4Eey888jfYNGieyTdE8FQyl9TXI2upRqhXwc%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.074+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/migrants-rescued-and-men-convicted-following-international-nca-investigation-into-people-smuggling to ES
+[2025-04-11T02:30:24.082+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/irtJDRiIILdLElETn1Rity4TG7tCDNcA91vn8wMY_eI%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.082+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/small-boat-people-smuggling-suspects-face-extradition-to-france to ES
+[2025-04-11T02:30:24.091+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/Oumg3p51Ta4wj2K5bpp9M2t-BIJZ2KMNd0Umb59XzK0%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.091+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-venetic-man-who-killed-off-duty-police-officer-laundered-millions-for-organised-crime-group-2 to ES
+[2025-04-11T02:30:24.099+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/yN44w4w6tszTKOGT3DChX2bqAbqFeG6NhV1Ks5OaPPk%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.099+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/couple-convicted-of-20m-drug-importation-after-ibiza-nightclub-arrest to ES
+[2025-04-11T02:30:24.107+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/vNybjysl2_NctAR1ECpHKnzdSjOnB5Hpv-tfxHFSwu8%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.108+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/more-than-70-kilos-of-heroin-seized-in-west-london to ES
+[2025-04-11T02:30:24.116+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/3qghLP0Wjh4fQgLc8vdkmGpSpeOLjNZ74pK-14wBnLA%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.116+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/drug-dealer-sentenced-after-serious-crime-prevention-order-breaches to ES
+[2025-04-11T02:30:24.125+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/DkxMYvTtC44svBzW_aKIK5dxsaWGu4FnR4Tm_LFcoac%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.125+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/weapons-supplier-put-neighbours-in-the-firing-line to ES
+[2025-04-11T02:30:24.133+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/7S0bJvSc4PB9ppgVY7n6Y4PkunzsnLCe5mlKoWhle5Q%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.134+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/website-operators-who-promised-fraudsters-instant-profit-if-they-subscribed-to-illegal-service-are-sentenced to ES
+[2025-04-11T02:30:24.141+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/wk-G9oJ1x3QSa17gPrKSUIv8ZzgKIGgF8KhFvtaQp1s%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.142+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/nca-leads-major-increase-in-takedowns-of-social-media-accounts-linked-to-people-smuggling to ES
+[2025-04-11T02:30:24.149+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/pFNMdhZMexAg-wzZqzFO2B1JFjw45Y-ZoarVuxU1OZU%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.150+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/wigan-man-who-sexually-abused-young-girl-is-sentenced to ES
+[2025-04-11T02:30:24.158+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/FDxzaaWxs9dmogQMVAsN9g9T8O79C3xNWQ6i_ykzObE%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.158+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-venetic-man-who-killed-off-duty-police-officer-laundered-millions-for-organised-crime-group to ES
+[2025-04-11T02:30:24.167+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/-I9Olh5yXF9gB87K4gP5gfhR6qRoMAacxfgE3s-rcsc%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.167+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/pair-jailed-for-attempt-to-import-a-pistol-from-florida to ES
+[2025-04-11T02:30:24.175+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/A8oZyfqJy0gf_NhKpm8EMPaPLso8pl3nVxyldoGSgm4%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.176+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-venetic-bob-the-dog-drugs-traffickers-ordered-to-repay-nearly-1-2m to ES
+[2025-04-11T02:30:24.184+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/d7im_l_AVRPHau8bIrBHAtqgIH4XXG92QWwmLCibjlc%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.184+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/people-smuggling-gang-who-tried-to-use-rundown-boats-for-cross-channel-migrant-journeys-are-jailed to ES
+[2025-04-11T02:30:24.193+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/JyHbPRucit8fRT1A0D7MVI8hLI0ZSrQ-TP3FSTKEFx8%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.193+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/three-arrested-as-nca-joins-security-forces-in-kurdistan-region-of-iraq-to-target-uk-linked-people-smuggling-network to ES
+[2025-04-11T02:30:24.202+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/QdwUcS4c1MwWDZQrPSuwqkH4gumXwFPHp2mDdJCjV5k%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.203+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/drugs-and-money-seized-from-car-hide-in-west-london to ES
+[2025-04-11T02:30:24.211+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/WVBrhBmwUi-KhSTKeHoiTPtMMFIf19JG2SGgyuyJpqY%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.211+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/two-charged-as-part-of-investigation-into-fraudulent-covid-19-vaccination-records to ES
+[2025-04-11T02:30:24.220+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/-TY1uDf2WDs7xmF6_gT4vh8scE7JCVlmCC3k7HlQDh4%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.220+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-venetic-leeds-based-cocaine-and-amphetamine-production-ring-dismantled to ES
+[2025-04-11T02:30:24.229+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/ii0lYoNlM7uYN--uFxQD-hQoPWjBj-DzjAcOeqjvdgg%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.229+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/fugitive-members-of-small-boat-people-smuggling-network-who-transported-thousands-and-sexually-abused-migrants-arrested to ES
+[2025-04-11T02:30:24.238+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/z6XMBJjQSmyaM6z52kfIzuOp2rgGabphsid6EUsAWZM%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.239+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/gang-guilty-of-importing-over-half-a-tonne-of-cocaine to ES
+[2025-04-11T02:30:24.248+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/SWFQcLF9RXSatOZzQL-ZUaYr3rPWIE-qvhIJamH3iUk%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:24.250+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/i-know-it-s-wrong-confessed-offender-who-paid-to-watch-the-abuse-of-girls-as-young-as-five to ES
+[2025-04-11T02:30:24.267+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/mSirSRZMYvVh1QYC0Z2zVg1YiMGPT5q3L8s5dM6X6dE%3D [status:201 duration:0.016s]
+[2025-04-11T02:30:24.268+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-venetic-leading-figure-of-gang-that-shipped-class-a-drugs-between-england-and-scotland-is-jailed to ES
+[2025-04-11T02:30:24.286+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/dWFDbjon3le5Hs75nI0AV_fJKQr4RxVPWwtT8qerrHI%3D [status:201 duration:0.017s]
+[2025-04-11T02:30:24.288+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/dutch-man-caught-on-shop-cctv-jailed-for-smuggling-ketamine-worth-4-million to ES
+[2025-04-11T02:30:24.306+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/Tu1NGkNAL7n1LzgUk8VxfG2gM3f6L88RbrrdKpdlUbI%3D [status:201 duration:0.016s]
+[2025-04-11T02:30:24.307+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/three-men-jailed-for-their-roles-in-crime-group-behind-united-kingdom-s-biggest-ever-drugs-conspiracy to ES
+[2025-04-11T02:30:24.326+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/JyQXUoQ-FhzsEbvokEM2ev3HwEUOadTpY6KXuiJ2XDE%3D [status:201 duration:0.016s]
+[2025-04-11T02:30:24.327+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/drugs-boss-set-up-front-company-for-amazon-and-argos-goods-to-smuggle-cocaine-worth-140m to ES
+[2025-04-11T02:30:24.345+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/ZN2fzpn_azkdrm0cuU1B0_5ogHIQ0Suxl2_81cvq3ds%3D [status:201 duration:0.016s]
+[2025-04-11T02:30:24.346+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/kinahan-ocg-members-son-and-accomplice-sentenced-for-firearms-concealment-plot to ES
+[2025-04-11T02:30:24.355+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/n_gsU3NwOdvTPD53iuSfo0IHjNXCxO06NiJDAHSvWkU%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.356+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/twenty-firearms-seized-from-suspected-gun-factory to ES
+[2025-04-11T02:30:24.365+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/DL7-IW1_2C0-wFEkZGiXN3VIrV-0IW7iNHrIdkM6WcU%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.365+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/national-crime-agency-helps-deliver-international-operation-to-dismantle-cyber-crime-sites to ES
+[2025-04-11T02:30:24.372+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/NPUjP4Pz-EyqT19RxDzbUxZaJQmtb1gSX1C09GVi12M%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.373+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/couple-forfeit-12m-following-nca-investigation to ES
+[2025-04-11T02:30:24.381+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/l3SpMX0wPaE01bIXciCG9xJTGjQYtcXy6mW5DV64RXc%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.381+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/suspected-people-smuggler-detained-in-leicester-faces-extradition to ES
+[2025-04-11T02:30:24.389+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/EB4f4zutS2rgXVU8LxhLzXtbl95_xzLhvDmDSq9-EGQ%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.389+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/uk-france-and-germany-target-network-involved-in-dangerous-channel-boat-crossings to ES
+[2025-04-11T02:30:24.397+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/BrhgyTlGjAbJdD9znaFSdlJeOfku9Otss6B9eziYMaI%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.397+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-stovewood-brothers-guilty-of-raping-girls to ES
+[2025-04-11T02:30:24.408+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/S1WREXhEZ4voXAfkkAkEKkSI33Aw3emw9h0X5ZwCQf0%3D [status:201 duration:0.010s]
+[2025-04-11T02:30:24.408+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-destabilise-nca-disrupts-multi-billion-russian-money-laundering-networks-with-links-to-drugs-ransomware-and-espionage-resulting-in-84-arrests to ES
+[2025-04-11T02:30:24.418+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/0OhkoEXVxAW2OtL3Rv6H2LGfnsP9FwK01gPywLr-d6k%3D [status:201 duration:0.010s]
+[2025-04-11T02:30:24.420+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/gang-jailed-for-smuggling-210-million-of-cocaine-hidden-in-banana-boxes to ES
+[2025-04-11T02:30:24.434+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/53fuwddntiIFEc2j5n2v6XHIhFn2FnM3LXEs5i9cE5E%3D [status:201 duration:0.012s]
+[2025-04-11T02:30:24.434+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-venetic-final-member-of-ocg-jailed-today-after-drugs-hidden-in-digger to ES
+[2025-04-11T02:30:24.444+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/DTuc1TeiB1RUclEWrqitPtf2TmaXeSGAggDAprYQMvk%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:24.445+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/north-lanarkshire-man-sentenced-for-smuggling-29-000-skull-shaped-ecstasy-tablets to ES
+[2025-04-11T02:30:24.454+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/3HfCbi-Xy4NrE1PVYPc12suukd4TaLaGqG98FkHX_8w%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.455+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/18-convicted-in-united-kingdoms-biggest-ever-drugs-investigation to ES
+[2025-04-11T02:30:24.462+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/byT9SGQy-iuwMdqzOqQz7koL3E7LnPy4TU0MSN0ueSU%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.463+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/organised-crime-group-used-corrupt-port-worker-in-attempt-to-smuggle-cocaine-worth-90-million to ES
+[2025-04-11T02:30:24.470+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/6xcJ1aVjy04lFcCJhQx58Rw8Xx_f3LkeR9rHOSldQUc%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.470+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-from-devon-sentenced-for-sexually-assaulting-young-girl to ES
+[2025-04-11T02:30:24.479+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/4gEvQk68GJucKZwq5crhuGNL3UTC1UNaiJxgGAd_raM%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.479+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/car-wash-bosses-convicted-for-roles-in-people-smuggling-organisation-through-europe to ES
+[2025-04-11T02:30:24.488+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/58WV__2pi3UpQe80qKK-enPAbMKeAPfQRenmj4rufmQ%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.490+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/suspected-people-smuggler-extradited-to-the-uk-after-fleeing-to-spain to ES
+[2025-04-11T02:30:24.502+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/nvkKLK8gU_-yCk1_CeXrtn0_cqd-Csw0DmQAip1vWYA%3D [status:201 duration:0.010s]
+[2025-04-11T02:30:24.502+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/suspected-members-of-people-smuggling-network-arrested-in-nca-dawn-raids-across-london to ES
+[2025-04-11T02:30:24.513+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/9n4PDS_reL_uaJ3AVc0Sz8xNVaTtHgpA7bN_9yMY2Vk%3D [status:201 duration:0.010s]
+[2025-04-11T02:30:24.514+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/nca-arrest-man-in-wolverhampton-as-part-of-operation-to-take-down-europe-wide-people-smuggling-gang to ES
+[2025-04-11T02:30:24.524+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/aJN46iu_bD4ULvZbUBtEVgR2PQeBCjBlG4Gb6iAWxiw%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:24.525+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-paid-to-watch-children-as-young-as-seven-being-sexually-abused to ES
+[2025-04-11T02:30:24.535+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/IjSfroxsoz6YkXU7D_xj4MdIpOfHw8f1G45gnyZU6c0%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:24.536+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/people-smuggling-gang-tried-to-use-rundown-boats-for-cross-channel-migrant-journeys to ES
+[2025-04-11T02:30:24.544+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/Goh_OryQsK7c0S_JzlCzN3KG71Uqw1o1dfbfmuKzJZQ%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.544+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/firearms-smuggler-jailed-for-eight-years to ES
+[2025-04-11T02:30:24.552+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/mgEr_NZrvn1EX1FPrVUpihAn8stM8C3i4OHVVzVXKZQ%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.552+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/joint-investigation-sees-suspected-small-boat-supplier-arrested-in-the-netherlands to ES
+[2025-04-11T02:30:24.561+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/nhbQYbdQokMmpnTc09_hSbIVTAcq1YxWArmuKSCkPeY%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.561+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/six-arrested-after-multi-million-pound-birmingham-airport-drug-seizure to ES
+[2025-04-11T02:30:24.570+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/gMP1_Ol4p7ebH469dddX1PAYLAXxvXFw_nMQDwueP9g%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.570+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/birmingham-based-people-smuggling-fixer-among-trio-convicted-of-small-boats-plot to ES
+[2025-04-11T02:30:24.578+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/LnsAhMaHsTJrO0QwoFz4U80StU7qes6RVYChmmcb_io%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.579+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/four-arrested-over-significant-cocaine-haul-in-kent to ES
+[2025-04-11T02:30:24.588+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/pYUahVvhtFiaAdrzEEpu5tD3J3zFU3tN0e-EMifya08%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.588+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/five-merseyside-men-jailed-over-gun-plot to ES
+[2025-04-11T02:30:24.596+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/T431dWniXzZpM0XkoXPSY3a2m0QyffMfBNMQ5DnUblc%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.597+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-feted-as-the-best-smuggler-convicted-of-organising-channel-small-boat-crossings to ES
+[2025-04-11T02:30:24.604+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/NjLjJQFUSfv5GQqZRIC-vV8A4DT39BH2Obdw13HiFIk%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.605+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/nine-nca-arrests-during-major-international-operation-targeting-people-smuggling to ES
+[2025-04-11T02:30:24.613+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/FQ_FO25Dtr8t_0PUZCsyrUJbpE2HTrda85epuBpDuqg%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.613+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/18-convicted-in-france-for-small-boat-people-smuggling-following-joint-operation-involving-nca to ES
+[2025-04-11T02:30:24.622+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/mmRJkKZApKvnTW02trMgFBsgO1zTaOokaAHEfm3bqtM%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.622+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-stovewood-man-jailed-for-raping-and-wounding-vulnerable-girl to ES
+[2025-04-11T02:30:24.630+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/-6vfTI_Pzxzr8__8qmgP2fDPlH-0yFLnULzaUzxgBzI%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.631+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/nca-marks-end-of-term-as-chair-of-virtual-global-taskforce to ES
+[2025-04-11T02:30:24.638+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/DFEa_DLgv3cqsni1GSpIi1z0vrGOlrtwro8Ly1Wwcd8%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.639+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-venetic-35-years-in-jail-for-drug-dealer-who-planned-to-shoot-three-people to ES
+[2025-04-11T02:30:24.646+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/sWfvpqHBK87R1_9yECj7dX-J3eifmM0V7WnqUauOafQ%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.647+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/businessman-who-gave-drug-suppliers-professional-customer-service-is-jailed to ES
+[2025-04-11T02:30:24.656+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/qZh7i5ENJB9f18H_GevvN3I2f_mMFDAuLS76T8Z3F88%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.656+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/drugs-couriers-sentenced-for-heathrow-cannabis-seizures to ES
+[2025-04-11T02:30:24.664+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/T1hTH16UOQYM15Zl2qoB_dsg9P4XD0gdpaUM7aLhjaU%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.664+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-venetic-high-ranking-leader-of-gang-that-shipped-class-a-drugs-between-england-and-scotland-is-convicted to ES
+[2025-04-11T02:30:24.672+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/U2lelffK197hEvpg06BDR1QggVpSWZlsjxpnr_wxR5c%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.673+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-from-devon-convicted-of-sexually-assaulting-young-girl to ES
+[2025-04-11T02:30:24.680+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/mBDDuSc2GfeUI-Gkh7xl1I0CMBA21BJWn6l3kivksjQ%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.681+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-jailed-after-drugs-and-gun-seized to ES
+[2025-04-11T02:30:24.688+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/9k1rmB_BD7gSjtUdJmJBd7OmwmMyLnayriUfFZUWnTM%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.689+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/three-charged-in-suspected-ppe-fraud-worth-millions to ES
+[2025-04-11T02:30:24.697+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/MlT-9axJFMaKu41ma0f7d3W9EUV6dKRKbZ-_Hx-toBg%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.698+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/nca-expose-drug-trafficking-operation-run-through-scunthorpe-haulage-company to ES
+[2025-04-11T02:30:24.706+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/0EAJxsC06SLH9swxMIAJER0BFekho4RCMR6BrnuKZl4%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.707+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-sentenced-following-2-million-heathrow-airport-cannabis-smuggling-attempt to ES
+[2025-04-11T02:30:24.714+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/bnnaTJG5nl8anfZ6ZGDdt7T0Utwzuj4chq3ARaTOt4g%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.715+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-who-stockpiled-child-abuse-images-is-jailed to ES
+[2025-04-11T02:30:24.723+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/x7oPUeW52PcDvpUriYeM3bN4Fbu6pd3RyfO1DOfi-vM%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.723+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/amnesty-to-be-held-for-blank-firing-guns-popular-with-organised-criminals to ES
+[2025-04-11T02:30:24.730+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/gdx1Hq7GxoDZjXIR44AmvvxsREVMnCwzS8JYiAfuG48%3D [status:201 duration:0.006s]
+[2025-04-11T02:30:24.731+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/80-year-old-charged-over-methamphetamine-seizure to ES
+[2025-04-11T02:30:24.739+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/3Hs_o1WINI5KkTFqhNvHms7mHplAU_sHeW3P4PhJbSk%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.739+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/arrests-following-5-million-cannabis-haul-at-birmingham-airport to ES
+[2025-04-11T02:30:24.747+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/9RO9ixvzNBt5E1TiNYciNX6UzALx7ZGydZ0HjqnsK44%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.747+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-sentenced-for-blackmailing-children-into-sending-abuse-images to ES
+[2025-04-11T02:30:24.755+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/Z0ROBOPm-edc0VQfN4ooM9hXYVsuTCNFIuygdoC9psI%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.756+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/trio-sentenced-for-gun-hiding-plot-in-attempt-to-reduce-crime-group-heads-prison-sentence to ES
+[2025-04-11T02:30:24.764+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/etPPRLCdrnBTqzjhRR9l1X9EdL2D7O8KzHAPFTmoQus%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.765+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/four-men-sentenced-and-1-5-tonnes-of-cannabis-seized-in-nca-sting-operation to ES
+[2025-04-11T02:30:24.773+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/4QxUps1fSOkQ0ufI68wn--BWnQId4oSBMUYHE18OvKk%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.774+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/paedophile-paid-woman-to-live-stream-sexual-abuse-on-children-as-young-as-two to ES
+[2025-04-11T02:30:24.782+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/R7rW6vP8phoiyF4Ky6n2XaY_du-UzRr0_J30cGGX3Tk%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.782+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-stovewood-jailed-sex-offender-guilty-of-raping-third-girl to ES
+[2025-04-11T02:30:24.791+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/jsaDC5pM14wzat8LWWrMYto7RM6QC7hw9HvPd5nT3T0%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:24.792+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/private-public-partnership-to-tackle-sexual-exploitation to ES
+[2025-04-11T02:30:24.800+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/BZcL2tuSQ05wX_-qln45WqpKzPwjtfvJ_KwNefpq37k%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.800+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/nca-return-most-wanted-fugitive-to-the-uk-after-portugal-arrest to ES
+[2025-04-11T02:30:24.808+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/d7J_9MPMewpSWgk0p5IF-Jw8CEh-4w8k_sM-fwhcNy0%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.809+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/man-jailed-for-using-social-media-to-acquire-indecent-images-of-children to ES
+[2025-04-11T02:30:24.816+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/NPPKH39D5n-XA37I0F761TAxIAqjR67Zb2LCl_wBOCM%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.816+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/county-antrim-man-charged-with-cannabis-importation-in-nca-investigation to ES
+[2025-04-11T02:30:24.824+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/KV_iC9wjA5cF2njVds7-o9nxPXueuk9LRqllYbSjWAg%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.824+0000] {logging_mixin.py:188} INFO - saving article https://www.nationalcrimeagency.gov.uk/news/operation-venetic-two-firearms-and-drugs-dealers-jailed to ES
+[2025-04-11T02:30:24.832+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/J4dsUp_5J7531LqRwwv9zQ_JvGJHKbfOEQMTwKS9arU%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.833+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/austrac-and-caretaker-period to ES
+[2025-04-11T02:30:24.841+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/5PFTkgcJh0vSP09sqsCxcJbQurIXgdUiE7Fp6K-KPGQ%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.842+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/enhancing-austrac-online-your-feedback-action to ES
+[2025-04-11T02:30:24.850+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/KxHZsI0fzT1g3pkNwL5bDwU408Rmgr_bXLIRyRj-9ys%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.850+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/recap-first-austrac-industry-forums to ES
+[2025-04-11T02:30:24.859+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/Itluso1rmPg76nEbm2tyTmH_SfDRyEUxa6ufrbbaHsA%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.860+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/duped-love-how-romance-scam-led-money-laundering to ES
+[2025-04-11T02:30:24.868+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/yvyxe-L6yxU_1y3TaWsoG4kGXzBG_jEu4hE1yJ_7Ebc%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.868+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/harnessing-data-clearer-picture-money-laundering to ES
+[2025-04-11T02:30:24.877+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/qIklPWtAM0KRJFR4FPjEEcv4vRpjNOX5B7sNXvA3Xps%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.877+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/austrac-puts-crypto-atm-providers-notice to ES
+[2025-04-11T02:30:24.885+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/dYurpxnohRrnLWxp5QndgTJwyA25td_vkFiFH6VLtm4%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.886+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/how-write-good-quality-threshold-transaction-report to ES
+[2025-04-11T02:30:24.894+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/lWSENfSs9GZhuOCF_jQei4cNVGKh6Ba6Jp6jvocyqTc%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.894+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/new-tipping-offence-now-effect to ES
+[2025-04-11T02:30:24.902+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/pfMqD68t-lC9LqmJ7dBkAG0NJYVymhgi8EQH3qG1HTk%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.903+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/austrac-continues-engaging-businesses-new-amlctf-rules to ES
+[2025-04-11T02:30:24.912+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/q2WYgJzfuIhpCI-LOL4HLU9iVXQHgF7X3owWi9e57R8%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:24.913+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/amlctf-reform-webpage-home-everything-reform to ES
+[2025-04-11T02:30:24.921+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/lFVfCg6exfD1jFcBOpfzxxWMpSaOIM8Yu6O-t4E_4do%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.922+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/our-approach-co-design to ES
+[2025-04-11T02:30:24.930+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/z5kKkXxTl9AvsE_dwEXjCMuMQ0pjnWoUGR-W7aXYHcE%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.931+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/news-and-media/media-release/changes-tipping-offence-effect-today to ES
+[2025-04-11T02:30:24.941+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/x52XTPNTSghyrrrQdcKTgQBQrYDAbNwBPt6psw2BmJY%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:24.941+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/news-and-media/our-recent-work/austrac-ceo-brendan-thomas-speaking-notes-regulating-game-2025 to ES
+[2025-04-11T02:30:24.948+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/QbyeckT3Kdg9llufoMchhqnIcHbl8ew_f9KSXHU4mnY%3D [status:201 duration:0.006s]
+[2025-04-11T02:30:24.949+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/fatf-updates-global-mltf-risk-february-2025 to ES
+[2025-04-11T02:30:24.957+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/4l4aHW6n_2zZ7U42C34x3ETjTrbeo1qEdBa2HteiHew%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.957+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/read-our-recent-statement-about-our-use-ai to ES
+[2025-04-11T02:30:24.965+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/lIVkOMcdQzYr8vAm1NyZqJpxyjMC4eH8jCYYuYE6GHg%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.965+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/austrac-intelligence-prompts-airport-drug-find-and-subsequent-arrest to ES
+[2025-04-11T02:30:24.973+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/G8CJasxdJZKBI6MvjjHOzQDVUBDGc70Hb1Ci2E8PB3I%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:24.974+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/news-and-media/media-release/austrac-campaign-targets-remitters-and-digital-currency-exchanges to ES
+[2025-04-11T02:30:24.981+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/daThpRbGgI3WBLy4ugPeZIFwJ9FYRADYmhZ3DdVFv3I%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.981+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/scam-alert-scammers-impersonating-austrac-staff to ES
+[2025-04-11T02:30:24.989+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/5sLdcCPscC1JnkjAI3TQ0K91KGcmlqYdTkgEcfExuPc%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.989+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/news-and-media/media-release/austrac-takes-ladbrokes-and-neds-operator-entain-federal-court-over-serious-non-compliance-australias-money-laundering-laws to ES
+[2025-04-11T02:30:24.997+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/S4turebZiSAsgX65lWV0tQV2QGHkPLaze30QF_cSqNE%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:24.998+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/ceo-end-year-message-2024 to ES
+[2025-04-11T02:30:25.007+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/XYaQXnQs1rPfsUypw3N3jRlRmy3EIQ_3kD8W_KqO0V4%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:25.007+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/top-tips-completing-your-2024-compliance-report to ES
+[2025-04-11T02:30:25.015+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/iAbRSkpyhJS7NF5jX7fA_Oi4XZ4y57PHCHaj8XQw0OU%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.015+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/case-study-three-six-years-jail-time-convicted-money-launderers to ES
+[2025-04-11T02:30:25.024+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/YtQg3_GLqR8aA5OxIdqnce5SeOJ-BWwXD4GL_FOZMTE%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:25.025+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/rest-program-end-year-update to ES
+[2025-04-11T02:30:25.042+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/9eU0mhFUWYkC9aCRJcrALDLTS7TtnSQmD8r68i9sjs4%3D [status:201 duration:0.016s]
+[2025-04-11T02:30:25.042+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/recap-amlctf-advisers-forum-2024 to ES
+[2025-04-11T02:30:25.060+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/rbCmu4TEu7R4-WotVEKLPNlCFjE5SXKuDek5y6-RAAg%3D [status:201 duration:0.017s]
+[2025-04-11T02:30:25.060+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/key-trends-regulatory-activities-2024 to ES
+[2025-04-11T02:30:25.068+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/_MWaPvYIHxvs7F4AAGCQKJ2rDl0_UjPyi81jvUSsJso%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.068+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/how-we-ensure-data-quality-our-regulatory-and-intelligence-operations to ES
+[2025-04-11T02:30:25.076+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/IpiVXT05c9jVHbo8dJcq5GasipNr-aIcMLMircnaizM%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:25.077+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/bolstering-international-cooperation-financial-intelligence to ES
+[2025-04-11T02:30:25.085+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/QDck0QByPmq7SfKN8cjtbQ2PTsDZrDldOBuE7EKPQlw%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.085+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/new-video-cross-border-movement-monetary-instruments-available-now to ES
+[2025-04-11T02:30:25.093+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/t7XlBiPB8XBMEgqbANB6RI2oOtpAA-dSYAVbu0w98R0%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.093+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/how-write-good-quality-suspicious-matter-report to ES
+[2025-04-11T02:30:25.101+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/Ycq7S5vdGeN7MfuA1WBpmfkh06cAv03UhPKIKxPZWrw%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.101+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/public-consultation-open-new-draft-amlctf-rules to ES
+[2025-04-11T02:30:25.109+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/ogBUFDRvZ9uit7rVP8nV47cWCol7hiO_gF6QTe_Yv8w%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.110+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/amlctf-amendment-bill-announcement to ES
+[2025-04-11T02:30:25.118+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/Xn8nqWfoJStWrze7WN679bocyA4c-YN0Cmu3DHxJ5io%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:25.118+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/news-and-media/media-release/austrac-gifts-taipan-system-papua-new-guineas-financial-intelligence-unit to ES
+[2025-04-11T02:30:25.126+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/btclQ-leis4uqg5UoD9VgiXok3Gflo2u5UNbhKlZK24%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.127+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/news-and-media/media-release/austrac-takes-action-stamp-out-financial-crime-through-cryptocurrency-atms to ES
+[2025-04-11T02:30:25.134+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/7QiS_TxpN3oH9U5T9bfndouPoTR08HFm9tkdHHwIDHY%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.135+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/amlctf-amendment-bill-passes-parliament to ES
+[2025-04-11T02:30:25.142+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/IhadHqyvoHOisvMtJ8HMr9BMxFtyMdE0yN8R_-YxUO8%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.143+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/news-and-media/media-release/legislation-strengthen-australias-anti-money-laundering-and-counter-terrorism-financing-regime-has-passed-parliament to ES
+[2025-04-11T02:30:25.150+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/Jq14FFi1z2MwxZ-3iX6U3f7eVCnnZ1PaaV2yHAm-N4s%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.151+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/news-and-media/media-release/austrac-issues-16-businesses-infringement-notices-failing-comply-reporting-requirements to ES
+[2025-04-11T02:30:25.159+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/7OP5Yu4BNqxW9T4-YGecWo9E6odms7IF4NkLjgiESxI%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:25.160+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/news-and-media/media-release/austrac-and-pacific-financial-intelligence-units-gather-brisbane-tackle-financial-crime-region to ES
+[2025-04-11T02:30:25.167+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/31Qw2zIPLYFqgRo0eSrVbeIGTP9tgPIGC0TubSM2-RA%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.168+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/new-enrolment-and-registration-forms-have-arrived to ES
+[2025-04-11T02:30:25.177+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/eYFUPUkTtJ4GDM80MFtO4IVF4kcg825cUEfVvojAFy4%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:25.177+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/news-and-media/our-recent-work/austrac-ceo-brendan-thomas-speaking-notes-regulators-2024-hosted-finsia-sydney to ES
+[2025-04-11T02:30:25.184+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/lEPtjf0l-lSOOsOcpi7M3H1uxZhWhtJXyMiQ8sXAF_k%3D [status:201 duration:0.006s]
+[2025-04-11T02:30:25.185+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/fatf-updates-global-mltf-risk-october-2024 to ES
+[2025-04-11T02:30:25.192+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/MgnpZvNBvanZplG5OsCkovJfOR4-Cj7xt8vjGegaAvM%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.193+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/register-attend-austracs-november-forum-amlctf-advisers to ES
+[2025-04-11T02:30:25.200+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/R6oP5iGjzdJmVpy0wJxtPWVwHvPkFWdaBSeVvvf9NKk%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.201+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/upcoming-changes-enrolment-and-registration-forms to ES
+[2025-04-11T02:30:25.208+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/VDKb-30EKKdM_xt9DZKCGtuqT1TbY3v0Igr8ZBVcRZI%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.209+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/important-changes-customer-identification-obligations-online-gambling-service-providers to ES
+[2025-04-11T02:30:25.216+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/vfH5CfW6AtaWqUc26CtB2eb7tYW--Y-iPCYe16uLdQI%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.216+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/have-you-seen-our-latest-webinars to ES
+[2025-04-11T02:30:25.225+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/yQrDnr3q5AhAfXk5Vyi_hnqs0A0h5hW9lzRq5zQbHlM%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:25.225+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/new-resources-your-sector to ES
+[2025-04-11T02:30:25.233+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/yQrDnr3q5AhAfXk5Vyi_hnqs0A0h5hW9lzRq5zQbHlM%3D [status:200 duration:0.007s]
+[2025-04-11T02:30:25.233+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/new-resources-your-sector to ES
+[2025-04-11T02:30:25.241+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/pYS98Fc6ab9dFbEG1Fc3-SXbjJGQwgKQQgIopa_Strg%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.242+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/new-guidance-outsourcing-amlctf-functions to ES
+[2025-04-11T02:30:25.249+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/DgyyYjBm2klEwy8yBeM5-gPgCkFI7wV6p70zHDJ7hD0%3D [status:201 duration:0.007s]
+[2025-04-11T02:30:25.250+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/updated-mltf-risk-assessments-guidance-your-business to ES
+[2025-04-11T02:30:25.258+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/vfH5CfW6AtaWqUc26CtB2eb7tYW--Y-iPCYe16uLdQI%3D [status:200 duration:0.007s]
+[2025-04-11T02:30:25.258+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/have-you-seen-our-latest-webinars to ES
+[2025-04-11T02:30:25.268+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/jmCFkOj5t3TT2PdoPgdlCjz-w0CAS21YqfGDk_-2abM%3D [status:201 duration:0.009s]
+[2025-04-11T02:30:25.268+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/have-your-say-draft-guidance to ES
+[2025-04-11T02:30:25.277+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/dPNjUYP6xe1YJCS8ua3MfktgpHk6KCrvNopkOHFkhHc%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:25.278+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/keep-our-latest-efforts-combat-financial-crime to ES
+[2025-04-11T02:30:25.286+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/MgBKnHtshaOHf7d7w7EOGe2vr9JeIN9qyJNYoM--4rY%3D [status:201 duration:0.008s]
+[2025-04-11T02:30:25.286+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/enhancements-austrac-online to ES
+[2025-04-11T02:30:25.297+0000] {_transport.py:349} INFO - PUT https://10.10.1.12:9200/articles/_doc/JRd0XfWV2blxLfdAgi38-kMOIIeTbjFCOcWRsIIuTe0%3D [status:201 duration:0.010s]
+[2025-04-11T02:30:25.297+0000] {logging_mixin.py:188} INFO - saving article https://www.austrac.gov.au/protecting-children-sexual-exploitation to ES
+[2025-04-11T02:30:25.298+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-04-11T02:30:25.298+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-04-11T02:30:25.310+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=finScraping, task_id=store_articles, run_id=manual__2025-04-11T02:28:57.123168+00:00, execution_date=20250411T022857, start_date=20250411T023022, end_date=20250411T023025
+[2025-04-11T02:30:25.357+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-04-11T02:30:25.378+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-11T02:30:25.380+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,212 @@
+[2025-04-08T16:16:30.223+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-04-08T16:16:30.258+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: finScraping.scraper manual__2025-04-08T16:16:24.434610+00:00 map_index=1 [queued]>
+[2025-04-08T16:16:30.272+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: finScraping.scraper manual__2025-04-08T16:16:24.434610+00:00 map_index=1 [queued]>
+[2025-04-08T16:16:30.272+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-04-08T16:16:30.291+0000] {taskinstance.py:2330} INFO - Executing <Mapped(_PythonDecoratedOperator): scraper> on 2025-04-08 16:16:24.434610+00:00
+[2025-04-08T16:16:30.298+0000] {standard_task_runner.py:63} INFO - Started process 1032 to run task
+[2025-04-08T16:16:30.302+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'finScraping', 'scraper', 'manual__2025-04-08T16:16:24.434610+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/finScrapingDag.py', '--cfg-path', '/tmp/tmpp326gbbm', '--map-index', '1']
+[2025-04-08T16:16:30.304+0000] {standard_task_runner.py:91} INFO - Job 62: Subtask scraper
+[2025-04-08T16:16:30.381+0000] {task_command.py:426} INFO - Running <TaskInstance: finScraping.scraper manual__2025-04-08T16:16:24.434610+00:00 map_index=1 [running]> on host e755bcd4c5c9
+[2025-04-08T16:16:30.516+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='finScraping' AIRFLOW_CTX_TASK_ID='scraper' AIRFLOW_CTX_EXECUTION_DATE='2025-04-08T16:16:24.434610+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-08T16:16:24.434610+00:00'
+[2025-04-08T16:16:30.517+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-04-08T16:16:30.912+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au
+[2025-04-08T16:16:30.913+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 0
+[2025-04-08T16:16:42.642+0000] {logging_mixin.py:188} INFO - (1743390000, '\n\tEnhancing AUSTRAC Online: Your feedback in action')
+[2025-04-08T16:16:42.643+0000] {logging_mixin.py:188} INFO - (1743390000, '\n\tRecap of the first AUSTRAC Industry Forums ')
+[2025-04-08T16:16:42.643+0000] {logging_mixin.py:188} INFO - (1743390000, '\n\tDuped by love: how a romance scam led to money laundering')
+[2025-04-08T16:16:42.643+0000] {logging_mixin.py:188} INFO - (1743390000, '\n\tHarnessing data for a clearer picture of money laundering')
+[2025-04-08T16:16:42.644+0000] {logging_mixin.py:188} INFO - (1743390000, '\n\tAUSTRAC puts crypto ATM providers on notice')
+[2025-04-08T16:16:42.644+0000] {logging_mixin.py:188} INFO - (1743390000, '\n\tHow to write a good quality threshold transaction report')
+[2025-04-08T16:16:42.644+0000] {logging_mixin.py:188} INFO - (1743390000, '\n\tNew tipping off offence now in effect')
+[2025-04-08T16:16:42.644+0000] {logging_mixin.py:188} INFO - (1743390000, '\n\tAUSTRAC continues engaging with businesses on new AML/CTF Rules')
+[2025-04-08T16:16:42.644+0000] {logging_mixin.py:188} INFO - (1743390000, '\n\tAML/CTF Reform webpage – the home for everything reform')
+[2025-04-08T16:16:42.645+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 1
+[2025-04-08T16:16:54.460+0000] {logging_mixin.py:188} INFO - (1743390000, '\n\tOur approach to Co-design')
+[2025-04-08T16:16:54.461+0000] {logging_mixin.py:188} INFO - (1743375600, '\n\tChanges to tipping off offence in effect from today')
+[2025-04-08T16:16:54.461+0000] {logging_mixin.py:188} INFO - (1742875133, '\n\tAUSTRAC CEO, Brendan Thomas - Speaking notes at Regulating the Game 2025')
+[2025-04-08T16:16:54.461+0000] {logging_mixin.py:188} INFO - (1741914636, '\n\tFATF updates on global ML/TF risk – February 2025')
+[2025-04-08T16:16:54.461+0000] {logging_mixin.py:188} INFO - (1740712348, '\n\tRead our recent statement about our use of AI')
+[2025-04-08T16:16:54.462+0000] {logging_mixin.py:188} INFO - (1740631723, '\n\tAUSTRAC intelligence prompts airport drug find and subsequent arrest')
+[2025-04-08T16:16:54.462+0000] {logging_mixin.py:188} INFO - (1739761076, '\n\tAUSTRAC campaign targets remitters and digital currency exchanges')
+[2025-04-08T16:16:54.462+0000] {logging_mixin.py:188} INFO - (1734926400, '\n\tScam alert: Scammers impersonating AUSTRAC staff ')
+[2025-04-08T16:16:54.462+0000] {logging_mixin.py:188} INFO - (1734327900, '\n\tAUSTRAC takes Ladbrokes and Neds’ operator – Entain – to Federal Court over serious non-compliance with Australia’s money laundering laws')
+[2025-04-08T16:16:54.462+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 2
+[2025-04-08T16:17:06.271+0000] {logging_mixin.py:188} INFO - (1733967000, '\n\tCEO end of year message 2024')
+[2025-04-08T16:17:06.271+0000] {logging_mixin.py:188} INFO - (1733965500, '\n\tTop tips for completing your 2024 compliance report')
+[2025-04-08T16:17:06.271+0000] {logging_mixin.py:188} INFO - (1733965200, '\n\tCase study: Three to six years’ jail time for convicted money launderers')
+[2025-04-08T16:17:06.272+0000] {logging_mixin.py:188} INFO - (1733965200, '\n\tREST Program end of year update')
+[2025-04-08T16:17:06.272+0000] {logging_mixin.py:188} INFO - (1733965200, '\n\tRecap of AML/CTF Advisers’ Forum 2024')
+[2025-04-08T16:17:06.272+0000] {logging_mixin.py:188} INFO - (1733965200, '\n\tKey trends for regulatory activities in 2024')
+[2025-04-08T16:17:06.273+0000] {logging_mixin.py:188} INFO - (1733965200, '\n\tHow we ensure data quality for our regulatory and intelligence operations')
+[2025-04-08T16:17:06.273+0000] {logging_mixin.py:188} INFO - (1733965200, '\n\tBolstering international cooperation on financial intelligence')
+[2025-04-08T16:17:06.273+0000] {logging_mixin.py:188} INFO - (1733965200, '\n\tNew video on cross-border movement of monetary instruments available now')
+[2025-04-08T16:17:06.274+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 3
+[2025-04-08T16:17:18.012+0000] {logging_mixin.py:188} INFO - (1733965200, '\n\tHow to write a good quality suspicious matter report')
+[2025-04-08T16:17:18.013+0000] {logging_mixin.py:188} INFO - (1733965200, '\n\tPublic consultation open on new draft AML/CTF Rules')
+[2025-04-08T16:17:18.013+0000] {logging_mixin.py:188} INFO - (1733965200, '\n\tAML/CTF Amendment Bill announcement')
+[2025-04-08T16:17:18.013+0000] {logging_mixin.py:188} INFO - (1733788800, '\n\tAUSTRAC gifts TAIPAN system to Papua New Guinea’s financial intelligence unit')
+[2025-04-08T16:17:18.014+0000] {logging_mixin.py:188} INFO - (1733370571, '\n\tAUSTRAC takes action to stamp out financial crime through cryptocurrency ATMs')
+[2025-04-08T16:17:18.014+0000] {logging_mixin.py:188} INFO - (1732842000, '\n\tAML/CTF Amendment Bill passes Parliament')
+[2025-04-08T16:17:18.014+0000] {logging_mixin.py:188} INFO - (1732747864, '\n\tLegislation to strengthen Australia’s anti-money laundering and counter-terrorism financing regime has passed Parliament')
+[2025-04-08T16:17:18.014+0000] {logging_mixin.py:188} INFO - (1732662000, '\n\tAUSTRAC issues 16 businesses with infringement notices for failing to comply with reporting requirements')
+[2025-04-08T16:17:18.015+0000] {logging_mixin.py:188} INFO - (1731363600, '\n\tAUSTRAC and Pacific financial intelligence units gather in Brisbane to tackle financial crime in the region')
+[2025-04-08T16:17:18.015+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 4
+[2025-04-08T16:17:29.255+0000] {logging_mixin.py:188} INFO - (1731276000, '\n\tNew enrolment and registration forms have arrived ')
+[2025-04-08T16:17:29.256+0000] {logging_mixin.py:188} INFO - (1731042000, '\n\tAUSTRAC CEO Brendan Thomas - Speaking notes at The Regulators 2024, hosted by FINSIA, Sydney')
+[2025-04-08T16:17:29.256+0000] {logging_mixin.py:188} INFO - (1730844000, '\n\tFATF updates on global ML/TF risk – October 2024')
+[2025-04-08T16:17:29.256+0000] {logging_mixin.py:188} INFO - (1728943200, '\n\tRegister to attend AUSTRAC’s November forum for AML/CTF advisers ')
+[2025-04-08T16:17:29.256+0000] {logging_mixin.py:188} INFO - (1728858601, '\n\tUpcoming changes to enrolment and registration forms ')
+[2025-04-08T16:17:29.256+0000] {logging_mixin.py:188} INFO - (1727995922, '\n\tImportant changes to customer identification obligations for online gambling service providers')
+[2025-04-08T16:17:29.257+0000] {logging_mixin.py:188} INFO - (1727737200, '\n\tHow we produce a national risk assessment')
+[2025-04-08T16:17:29.257+0000] {logging_mixin.py:188} INFO - (1727737200, '\n\tNew resources for your sector')
+[2025-04-08T16:17:29.257+0000] {logging_mixin.py:188} INFO - (1727737200, '\n\tNew guidance on outsourcing AML/CTF functions ')
+[2025-04-08T16:17:29.257+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 5
+[2025-04-08T16:17:39.877+0000] {logging_mixin.py:188} INFO - (1727737200, '\n\tEnhancements to AUSTRAC Online')
+[2025-04-08T16:17:39.878+0000] {logging_mixin.py:188} INFO - (1727737200, '\n\tKeep up with our latest efforts to combat financial crime')
+[2025-04-08T16:17:39.878+0000] {logging_mixin.py:188} INFO - (1727737200, '\n\tHave your say on draft guidance')
+[2025-04-08T16:17:39.878+0000] {logging_mixin.py:188} INFO - (1727737200, '\n\tHave you seen our latest webinars')
+[2025-04-08T16:17:39.878+0000] {logging_mixin.py:188} INFO - (1727737200, '\n\tUpdated ML/TF risk assessments guidance for your business')
+[2025-04-08T16:17:39.879+0000] {logging_mixin.py:188} INFO - (1727737200, '\n\tNew guidance on outsourcing AML/CTF functions ')
+[2025-04-08T16:17:39.879+0000] {logging_mixin.py:188} INFO - (1727737200, '\n\tNew resources for your sector')
+[2025-04-08T16:17:39.879+0000] {logging_mixin.py:188} INFO - (1726016400, '\n\tAML/CTF Amendment Bill introduced in Parliament ')
+[2025-04-08T16:17:39.879+0000] {logging_mixin.py:188} INFO - (1725404400, '\n\tHow businesses can help protect children')
+[2025-04-08T16:17:39.880+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 6
+[2025-04-08T16:17:51.269+0000] {logging_mixin.py:188} INFO - (1720652400, '\n\tHelp prevent vulnerable students from being used as ‘money mules’')
+[2025-04-08T16:17:51.269+0000] {logging_mixin.py:188} INFO - (1720652400, '\n\tUpdate on second stage consultation on the AML/CTF reforms')
+[2025-04-08T16:17:51.270+0000] {logging_mixin.py:188} INFO - (1720652400, '\n\tNew risk assessments help businesses examine their threats and vulnerabilities')
+[2025-04-08T16:17:51.270+0000] {logging_mixin.py:188} INFO - (1720652400, "\n\tAUSTRAC's Reporting Entity System Transformation Program update")
+[2025-04-08T16:17:51.270+0000] {logging_mixin.py:188} INFO - (1720652400, '\n\tDiscover purpose behind the Fintel alliance')
+[2025-04-08T16:17:51.270+0000] {logging_mixin.py:188} INFO - (1720652400, '\n\tSpotlight on our work with international partners')
+[2025-04-08T16:17:51.270+0000] {logging_mixin.py:188} INFO - (1720652400, '\n\tRecap of 2024 RegTech Symposium')
+[2025-04-08T16:17:51.270+0000] {logging_mixin.py:188} INFO - (1720508400, '\n\tAUSTRAC CEO Brendan Thomas - Speaking notes at National Press Club of Australia')
+[2025-04-08T16:17:51.271+0000] {logging_mixin.py:188} INFO - (1720493100, '\n\tLatest insights on Australia’s money laundering and terrorism financing risks key to taking the profit out of crime')
+[2025-04-08T16:17:51.271+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 7
+[2025-04-08T16:18:05.095+0000] {logging_mixin.py:188} INFO - (1720403245, '\n\tFATF updates on global ML/TF risk – June 2024')
+[2025-04-08T16:18:05.096+0000] {logging_mixin.py:188} INFO - (1718755200, '\n\tAUSTRAC CEO Brendan Thomas - Speaking notes at ACAMS Conference, The Assembly Australasia')
+[2025-04-08T16:18:05.096+0000] {logging_mixin.py:188} INFO - (1717722000, '\n\tFederal Court makes ruling in SkyCity case')
+[2025-04-08T16:18:05.096+0000] {logging_mixin.py:188} INFO - (1717459200, '\n\tNew guidance released to help combat the use of foreign students as money mules')
+[2025-04-08T16:18:05.096+0000] {logging_mixin.py:188} INFO - (1717047052, '\n\tCyber-enabled fraud, child exploitation among the focus for AUSTRAC and ASEAN financial intelligence')
+[2025-04-08T16:18:05.096+0000] {logging_mixin.py:188} INFO - (1717029025, '\n\tAUSTRAC accepts Enforceable Undertaking from online betting company Sportsbet')
+[2025-04-08T16:18:05.097+0000] {logging_mixin.py:188} INFO - (1715842728, '\n\tAUSTRAC and SkyCity agree to proposed $67 million penalty')
+[2025-04-08T16:18:05.097+0000] {logging_mixin.py:188} INFO - (1714622400, '\n\tProtect yourself online: Top tips to spot a fake website')
+[2025-04-08T16:18:05.097+0000] {logging_mixin.py:188} INFO - (1714622400, '\n\tMeet our new CEO, Brendan Thomas')
+[2025-04-08T16:18:05.097+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 8
+[2025-04-08T16:18:18.295+0000] {logging_mixin.py:188} INFO - (1714622400, '\n\tMeet our new CEO, Brendan Thomas')
+[2025-04-08T16:18:18.296+0000] {logging_mixin.py:188} INFO - (1714622400, '\n\tInside the AUSTRAC vs Crown Case: Key takeaways and insights')
+[2025-04-08T16:18:18.296+0000] {logging_mixin.py:188} INFO - (1714611600, '\n\tSecond stage consultation on reforming Australia’s AML/CTF regime is now open')
+[2025-04-08T16:18:18.296+0000] {logging_mixin.py:188} INFO - (1713335773, '\n\tAUSTRAC issues businesses with infringement notices for failing to comply with their reporting obligations')
+[2025-04-08T16:18:18.296+0000] {logging_mixin.py:188} INFO - (1712721012, '\n\tRegister your interest for the upcoming 2024 RegTech Symposium')
+[2025-04-08T16:18:18.296+0000] {logging_mixin.py:188} INFO - (1711351320, '\n\tStay alert for scams impersonating AUSTRAC')
+[2025-04-08T16:18:18.297+0000] {logging_mixin.py:188} INFO - (1709762801, '\n\tAUSTRAC commences investigation into online betting company bet365')
+[2025-04-08T16:18:18.297+0000] {logging_mixin.py:188} INFO - (1709164635, '\n\tFATF updates on global ML/TF risk – February 2024')
+[2025-04-08T16:18:18.297+0000] {logging_mixin.py:188} INFO - (1704231805, '\n\tIt’s time to get started on your 2023 compliance report ')
+[2025-04-08T16:18:18.297+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 9
+[2025-04-08T16:18:31.558+0000] {logging_mixin.py:188} INFO - (1703127968, '\n\tScam alert: Be watchful for scammers claiming to represent AUSTRAC')
+[2025-04-08T16:18:31.559+0000] {logging_mixin.py:188} INFO - (1702879352, '\n\tAUSTRAC welcomes appointment of new CEO')
+[2025-04-08T16:18:31.560+0000] {logging_mixin.py:188} INFO - (1702844315, '\n\tOur regulatory priorities for 2024 are now available')
+[2025-04-08T16:18:31.560+0000] {logging_mixin.py:188} INFO - (1702843854, '\n\tWrap up on our international activities for 2023')
+[2025-04-08T16:18:31.560+0000] {logging_mixin.py:188} INFO - (1702843777, '\n\tCase Study: Preventing misuse and criminal communication through payment text fields')
+[2025-04-08T16:18:31.561+0000] {logging_mixin.py:188} INFO - (1702843720, '\n\tUnderstanding AUSTRAC reporting: a closer look behind the scenes')
+[2025-04-08T16:18:31.562+0000] {logging_mixin.py:188} INFO - (1702843672, '\n\tRecap of 2023 RegTech Symposium')
+[2025-04-08T16:18:31.562+0000] {logging_mixin.py:188} INFO - (1702843598, '\n\tBusinesses providing designated services must enrol with AUSTRAC ')
+[2025-04-08T16:18:31.563+0000] {logging_mixin.py:188} INFO - (1702843517, '\n\tTop tips for completing your 2023 compliance report')
+[2025-04-08T16:18:31.563+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 10
+[2025-04-08T16:18:44.748+0000] {logging_mixin.py:188} INFO - (1702418400, '\n\tAUSTRAC announces its 2024 regulatory priorities')
+[2025-04-08T16:18:44.748+0000] {logging_mixin.py:188} INFO - (1702243466, '\n\tChanges to AUSTRAC Online login page and password reset')
+[2025-04-08T16:18:44.749+0000] {logging_mixin.py:188} INFO - (1700684446, '\n\tAUSTRAC accepts enforceable undertaking from Gold Corporation')
+[2025-04-08T16:18:44.749+0000] {logging_mixin.py:188} INFO - (1700102524, '\n\tAUSTRAC and financial intelligence units across the Pacific meet in Cook Islands to further fight against money laundering')
+[2025-04-08T16:18:44.749+0000] {logging_mixin.py:188} INFO - (1699393478, '\n\tFATF updates on global ML/TF Risk – October 2023')
+[2025-04-08T16:18:44.749+0000] {logging_mixin.py:188} INFO - (1698889057, '\n\tCrime Interrupted – A race against time to stop millions in theft')
+[2025-04-08T16:18:44.749+0000] {logging_mixin.py:188} INFO - (1698888980, '\n\tOur work to combat virtual kidnappings')
+[2025-04-08T16:18:44.750+0000] {logging_mixin.py:188} INFO - (1698888791, '\n\tAUSTRAC’s response to the Israel/Gaza conflict')
+[2025-04-08T16:18:44.750+0000] {logging_mixin.py:188} INFO - (1698888450, '\n\tHave your say on our enhanced website')
+[2025-04-08T16:18:44.750+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 11
+[2025-04-08T16:18:57.819+0000] {logging_mixin.py:188} INFO - (1698877415, '\n\tWorking together to prevent the sexual exploitation of children')
+[2025-04-08T16:18:57.820+0000] {logging_mixin.py:188} INFO - (1698877304, '\n\tUnderstanding your obligations related to data breaches')
+[2025-04-08T16:18:57.820+0000] {logging_mixin.py:188} INFO - (1698877158, '\n\tStay up-to-date with our latest guidance')
+[2025-04-08T16:18:57.821+0000] {logging_mixin.py:188} INFO - (1698118200, '\n\tEnrol with AUSTRAC before 9 November 2023 to avoid increasing penalties')
+[2025-04-08T16:18:57.821+0000] {logging_mixin.py:188} INFO - (1697514430, '\n\t2023 RegTech Symposium ')
+[2025-04-08T16:18:57.821+0000] {logging_mixin.py:188} INFO - (1695869465, '\n\tStrengthened customer identification procedures for online gambling service providers')
+[2025-04-08T16:18:57.821+0000] {logging_mixin.py:188} INFO - (1691120227, '\n\tBe aware of scams impersonating AUSTRAC and FIUs')
+[2025-04-08T16:18:57.821+0000] {logging_mixin.py:188} INFO - (1689058931, '\n\tFederal Court makes ruling in Crown matter')
+[2025-04-08T16:18:57.822+0000] {logging_mixin.py:188} INFO - (1688024919, '\n\tAUSTRAC finalises external audit of Bell Financial Group')
+[2025-04-08T16:18:57.822+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 12
+[2025-04-08T16:19:11.600+0000] {logging_mixin.py:188} INFO - (1687848770, '\n\tReporting Entity System Transformation update')
+[2025-04-08T16:19:11.602+0000] {logging_mixin.py:188} INFO - (1687848390, '\n\tNew FATF publications released on fighting financial crime')
+[2025-04-08T16:19:11.602+0000] {logging_mixin.py:188} INFO - (1687840600, '\n\tCase Study: Real outcomes resulting from your suspicious matter reports ')
+[2025-04-08T16:19:11.602+0000] {logging_mixin.py:188} INFO - (1687840239, '\n\tNew national risk assessments in development')
+[2025-04-08T16:19:11.603+0000] {logging_mixin.py:188} INFO - (1687834209, '\n\tNew e-learning modules now available')
+[2025-04-08T16:19:11.603+0000] {logging_mixin.py:188} INFO - (1687833521, '\n\tNew guidance released on debanking')
+[2025-04-08T16:19:11.603+0000] {logging_mixin.py:188} INFO - (1687832499, '\n\tOur updated website is live ')
+[2025-04-08T16:19:11.604+0000] {logging_mixin.py:188} INFO - (1687831562, '\n\tUpdate on the proposed AML/CTF legislative reforms ')
+[2025-04-08T16:19:11.604+0000] {logging_mixin.py:188} INFO - (1687484556, '\n\tFATF updates on global ML/TF risk – June 2023')
+[2025-04-08T16:19:11.604+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 13
+[2025-04-08T16:19:24.159+0000] {logging_mixin.py:188} INFO - (1687220642, '\n\tAn updated website is coming soon')
+[2025-04-08T16:19:24.160+0000] {logging_mixin.py:188} INFO - (1685490155, '\n\tAUSTRAC accepts Enforceable Undertaking from Bank of Queensland')
+[2025-04-08T16:19:24.160+0000] {logging_mixin.py:188} INFO - (1685489987, '\n\tAUSTRAC and Crown agree to proposed $450 million penalty')
+[2025-04-08T16:19:24.160+0000] {logging_mixin.py:188} INFO - (1681972492, '\n\tConsultation commences on AML/CTF reforms')
+[2025-04-08T16:19:24.160+0000] {logging_mixin.py:188} INFO - (1681948358, '\n\tNew financial crime guide now available')
+[2025-04-08T16:19:24.161+0000] {logging_mixin.py:188} INFO - (1681948218, '\n\tUpdated guidance on conducting employee due diligence and AML/CTF training')
+[2025-04-08T16:19:24.161+0000] {logging_mixin.py:188} INFO - (1681948107, '\n\tNew AML/CTF e-learning modules have launched')
+[2025-04-08T16:19:24.161+0000] {logging_mixin.py:188} INFO - (1681947943, '\n\tUnderstand our intelligence function and how it works')
+[2025-04-08T16:19:24.161+0000] {logging_mixin.py:188} INFO - (1681947810, '\n\tAUSTRAC, AFP, ACCCE and industry partners team up to fight child exploitation')
+[2025-04-08T16:19:24.161+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 14
+[2025-04-08T16:19:37.841+0000] {logging_mixin.py:188} INFO - (1681947698, '\n\tReporting Entity System Transformation update - April 2023')
+[2025-04-08T16:19:37.841+0000] {logging_mixin.py:188} INFO - (1681947626, '\n\tNew pubs and clubs resources and video now available')
+[2025-04-08T16:19:37.841+0000] {logging_mixin.py:188} INFO - (1680751411, '\n\tREST program webinar update: your questions answered')
+[2025-04-08T16:19:37.842+0000] {logging_mixin.py:188} INFO - (1679006550, '\n\tAUSTRAC accepts enforceable undertaking from PayPal')
+[2025-04-08T16:19:37.842+0000] {logging_mixin.py:188} INFO - (1678224645, '\n\tFATF updates on global ML/TF risk - February 2023')
+[2025-04-08T16:19:37.842+0000] {logging_mixin.py:188} INFO - (1676930705, '\n\tAUSTRAC accepts enforceable undertaking from Cash Converters')
+[2025-04-08T16:19:37.842+0000] {logging_mixin.py:188} INFO - (1676676812, '\n\tAUSTRAC cements partnership with United Kingdom to intensify fight against financial crime')
+[2025-04-08T16:19:37.842+0000] {logging_mixin.py:188} INFO - (1675832685, '\n\tAUSTRAC Online system maintenance 5pm AEDT 24 February until 11:30pm 26 February 2023')
+[2025-04-08T16:19:37.842+0000] {logging_mixin.py:188} INFO - (1672802022, '\n\tIt’s time to submit your 2022 compliance report – get started today')
+[2025-04-08T16:19:37.843+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 15
+[2025-04-08T16:19:51.387+0000] {logging_mixin.py:188} INFO - (1671419198, '\n\tFATF updates on global ML/TF risk - October 2022')
+[2025-04-08T16:19:51.388+0000] {logging_mixin.py:188} INFO - (1671176557, '\n\tAUSTRAC partners with industry to protect children from sexual exploitation ')
+[2025-04-08T16:19:51.388+0000] {logging_mixin.py:188} INFO - (1670990333, '\n\tAUSTRAC releases Australia’s first national proliferation financing risk assessment ')
+[2025-04-08T16:19:51.389+0000] {logging_mixin.py:188} INFO - (1670806748, '\n\tDiscover our top tips for transaction reporting')
+[2025-04-08T16:19:51.389+0000] {logging_mixin.py:188} INFO - (1670806585, '\n\tTips to help you get your 2022 compliance report right')
+[2025-04-08T16:19:51.389+0000] {logging_mixin.py:188} INFO - (1670806448, '\n\tHelp us prevent the exploitation of international trade')
+[2025-04-08T16:19:51.389+0000] {logging_mixin.py:188} INFO - (1670806305, '\n\tSupporting customers who don’t have standard identification')
+[2025-04-08T16:19:51.389+0000] {logging_mixin.py:188} INFO - (1670806086, '\n\tNew guidance available on conducting source of funds and wealth checks')
+[2025-04-08T16:19:51.389+0000] {logging_mixin.py:188} INFO - (1670805547, '\n\tHave your say on draft debanking guidance')
+[2025-04-08T16:19:51.390+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 16
+[2025-04-08T16:20:05.223+0000] {logging_mixin.py:188} INFO - (1670805314, '\n\tAustralia’s national terrorism threat level downgraded')
+[2025-04-08T16:20:05.224+0000] {logging_mixin.py:188} INFO - (1670805214, '\n\tAUSTRAC’s privacy policy has been updated')
+[2025-04-08T16:20:05.224+0000] {logging_mixin.py:188} INFO - (1670804995, '\n\tReporting Entity System Transformation update - December 2022')
+[2025-04-08T16:20:05.224+0000] {logging_mixin.py:188} INFO - (1670537470, '\n\tAUSTRAC issues guidance to ensure greater access to financial services')
+[2025-04-08T16:20:05.225+0000] {logging_mixin.py:188} INFO - (1670371475, '\n\tAUSTRAC commences Federal Court proceedings against SkyCity Adelaide')
+[2025-04-08T16:20:05.225+0000] {logging_mixin.py:188} INFO - (1669762327, '\n\tAUSTRAC commences proceedings in the Federal Court against Star Entertainment Group entities')
+[2025-04-08T16:20:05.225+0000] {logging_mixin.py:188} INFO - (1669243592, '\n\tAUSTRAC accepts enforceable undertaking from ING')
+[2025-04-08T16:20:05.225+0000] {logging_mixin.py:188} INFO - (1669155330, '\n\tYou’re invited to hear updates on exciting changes coming to AUSTRAC Online')
+[2025-04-08T16:20:05.226+0000] {logging_mixin.py:188} INFO - (1668539995, '\n\tAUSTRAC joins Pacific partners to combat financial crime across the region')
+[2025-04-08T16:20:05.226+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 17
+[2025-04-08T16:20:18.755+0000] {logging_mixin.py:188} INFO - (1667417849, '\n\tAUSTRAC orders audit of Sportsbet’s and Bet365’s compliance with financial crime laws')
+[2025-04-08T16:20:18.756+0000] {logging_mixin.py:188} INFO - (1666900162, '\n\tTrade-based money laundering on the radar in new financial crime guide')
+[2025-04-08T16:20:18.756+0000] {logging_mixin.py:188} INFO - (1666297177, '\n\tAUSTRAC welcomes initiative to fight financial crime')
+[2025-04-08T16:20:18.756+0000] {logging_mixin.py:188} INFO - (1665096017, '\n\tOptus data breach – working with our reporting entities ')
+[2025-04-08T16:20:18.757+0000] {logging_mixin.py:188} INFO - (1664244500, '\n\tAUSTRAC commences investigation into Entain Group Pty Ltd')
+[2025-04-08T16:20:18.757+0000] {logging_mixin.py:188} INFO - (1664148822, '\n\tAML/CTF e-learning available now')
+[2025-04-08T16:20:18.757+0000] {logging_mixin.py:188} INFO - (1664148555, '\n\tNew risk assessments and threat update now available')
+[2025-04-08T16:20:18.757+0000] {logging_mixin.py:188} INFO - (1664148475, '\n\tAUSTRAC’s international partners')
+[2025-04-08T16:20:18.758+0000] {logging_mixin.py:188} INFO - (1664148326, '\n\tU.S. Treasury issues sanctions on virtual currency mixers')
+[2025-04-08T16:20:18.758+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 18
+[2025-04-08T16:20:32.388+0000] {logging_mixin.py:188} INFO - (1664147918, '\n\tCase study: Real outcomes resulting from financial crime guides')
+[2025-04-08T16:20:32.389+0000] {logging_mixin.py:188} INFO - (1664147842, '\n\tAUSTRAC’s Reporting Entity System Transformation program update - September 2022')
+[2025-04-08T16:20:32.389+0000] {logging_mixin.py:188} INFO - (1664147680, '\n\tNew resources for the bullion sector')
+[2025-04-08T16:20:32.389+0000] {logging_mixin.py:188} INFO - (1661917882, '\n\tFATF updates on global ML/TF risk - June 2022')
+[2025-04-08T16:20:32.389+0000] {logging_mixin.py:188} INFO - (1661908519, '\n\tAUSTRAC orders audit of Gold Corporation’s compliance with financial crime laws')
+[2025-04-08T16:20:32.390+0000] {logging_mixin.py:188} INFO - (1660085612, '\n\tAUSTRAC partners with Pacific to combat money laundering and boost regional security')
+[2025-04-08T16:20:32.390+0000] {logging_mixin.py:188} INFO - (1660024768, '\n\tAUSTRAC strengthens international partnership with Nigerian FIU through MOU signing')
+[2025-04-08T16:20:32.390+0000] {logging_mixin.py:188} INFO - (1656307737, '\n\tMan with child-like sex doll charged')
+[2025-04-08T16:20:32.390+0000] {logging_mixin.py:188} INFO - (1656307589, '\n\tAUSTRAC’s System Transformation Program update - June 2022')
+[2025-04-08T16:20:32.391+0000] {logging_mixin.py:188} INFO - Scaping austrac.gov.au : page 19
+[2025-04-08T16:20:38.441+0000] {local_task_job_runner.py:310} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2025-04-08T16:20:38.443+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2025-04-08T16:20:38.448+0000] {process_utils.py:132} INFO - Sending 15 to group 1032. PIDs of all processes in the group: [1032]
+[2025-04-08T16:20:38.449+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 1032
+[2025-04-08T16:20:38.450+0000] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-04-08T16:20:38.456+0000] {python.py:237} INFO - Done. Returned value was: []
+[2025-04-08T16:20:38.457+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-04-08T16:20:38.484+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=finScraping, task_id=scraper, run_id=manual__2025-04-08T16:16:24.434610+00:00, map_index=1, execution_date=20250408T161624, start_date=20250408T161630, end_date=20250408T162038
+[2025-04-08T16:20:38.542+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=1032, status='terminated', exitcode=0, started='16:16:30') (1032) terminated with exit code 0

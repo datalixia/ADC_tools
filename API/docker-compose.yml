@@ -1,0 +1,28 @@
+services:
+# Python fastAPI container for api ( read data from Es and send it to endpoints)
+  api:
+    build:
+      context: '.'
+      dockerfile: 'Dockerfile'
+      args:
+        uid: 1000
+    container_name: api
+    ports:
+      - 5001:8888
+    volumes:
+      - ./code:/code/app
+    mem_limit: 3000000000
+    networks:
+      backend:
+        ipv4_address: 10.10.1.11
+        aliases:
+          - api
+
+
+
+networks:
+  backend:
+    name: FinScraping
+    ipam:
+      config:
+        - subnet: 10.10.1.0/24

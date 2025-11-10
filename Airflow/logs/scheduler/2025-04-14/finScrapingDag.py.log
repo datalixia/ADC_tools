@@ -1,0 +1,728 @@
+[2025-04-14T00:40:02.968+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:40:02.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:40:02.974+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:40:02.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:40:04.681+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:40:05.190+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:40:05.190+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:40:05.238+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:40:05.237+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:40:05.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 2.316 seconds
+[2025-04-14T00:40:35.449+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:40:35.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:40:35.452+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:40:35.452+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:40:35.645+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:40:35.790+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:40:35.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:40:35.827+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:40:35.827+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:40:35.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.414 seconds
+[2025-04-14T00:41:06.081+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:41:06.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:41:06.084+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:41:06.084+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:41:06.271+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:41:06.383+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:41:06.382+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:41:06.405+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:41:06.405+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:41:06.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.350 seconds
+[2025-04-14T00:41:38.040+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:41:38.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:41:38.197+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:41:38.154+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:41:42.165+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:41:42.588+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:41:42.588+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:41:42.667+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:41:42.666+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:41:42.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 5.282 seconds
+[2025-04-14T00:42:13.086+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:42:13.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:42:13.091+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:42:13.090+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:42:13.292+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:42:13.418+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:42:13.418+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:42:13.445+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:42:13.445+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:42:13.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.390 seconds
+[2025-04-14T00:42:43.718+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:42:43.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:42:43.722+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:42:43.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:42:43.923+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:42:44.042+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:42:44.042+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:42:44.067+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:42:44.066+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:42:44.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.381 seconds
+[2025-04-14T00:43:14.374+0000] {processor.py:161} INFO - Started process (PID=114) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:43:14.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:43:14.379+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:43:14.378+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:43:14.576+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:43:14.723+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:43:14.723+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:43:14.748+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:43:14.748+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:43:14.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.405 seconds
+[2025-04-14T00:43:44.995+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:43:44.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:43:44.999+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:43:44.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:43:45.207+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:43:45.329+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:43:45.329+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:43:45.353+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:43:45.353+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:43:45.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.388 seconds
+[2025-04-14T00:44:15.583+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:44:15.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:44:15.586+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:44:15.585+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:44:15.808+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:44:15.963+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:44:15.962+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:44:15.988+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:44:15.987+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:44:16.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.434 seconds
+[2025-04-14T00:44:46.136+0000] {processor.py:161} INFO - Started process (PID=138) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:44:46.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:44:46.141+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:44:46.140+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:44:46.426+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:44:46.583+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:44:46.583+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:44:46.610+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:44:46.609+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:44:46.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.513 seconds
+[2025-04-14T00:45:16.871+0000] {processor.py:161} INFO - Started process (PID=146) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:45:16.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:45:16.876+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:45:16.875+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:45:17.071+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:45:17.191+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:45:17.191+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:45:17.215+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:45:17.215+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:45:17.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.374 seconds
+[2025-04-14T00:45:47.480+0000] {processor.py:161} INFO - Started process (PID=154) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:45:47.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:45:47.483+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:45:47.483+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:45:47.749+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:45:47.878+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:45:47.878+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:45:47.905+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:45:47.905+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:45:47.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.455 seconds
+[2025-04-14T00:46:18.113+0000] {processor.py:161} INFO - Started process (PID=162) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:46:18.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:46:18.117+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:46:18.117+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:46:18.335+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:46:18.473+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:46:18.473+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:46:18.496+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:46:18.496+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:46:18.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.417 seconds
+[2025-04-14T00:46:48.781+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:46:48.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:46:48.790+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:46:48.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:46:49.038+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:46:49.162+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:46:49.162+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:46:49.187+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:46:49.187+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:46:49.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.454 seconds
+[2025-04-14T00:47:19.475+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:47:19.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:47:19.479+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:47:19.479+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:47:19.672+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:47:19.790+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:47:19.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:47:19.813+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:47:19.813+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:47:19.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.367 seconds
+[2025-04-14T00:47:50.021+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:47:50.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:47:50.026+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:47:50.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:47:50.232+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:47:50.354+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:47:50.353+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:47:50.379+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:47:50.379+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:47:50.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.392 seconds
+[2025-04-14T00:48:20.672+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:48:20.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:48:20.677+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:48:20.676+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:48:20.875+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:48:20.993+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:48:20.992+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:48:21.018+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:48:21.018+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:48:21.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.376 seconds
+[2025-04-14T00:48:51.286+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:48:51.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:48:51.315+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:48:51.312+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:48:51.860+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:48:52.176+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:48:52.176+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:48:52.236+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:48:52.236+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:48:52.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 1.041 seconds
+[2025-04-14T00:49:22.396+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:49:22.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:49:22.401+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:49:22.400+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:49:22.621+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:49:22.743+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:49:22.743+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:49:22.770+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:49:22.769+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:49:22.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.406 seconds
+[2025-04-14T00:49:53.037+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:49:53.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:49:53.041+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:49:53.041+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:49:53.245+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:49:53.361+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:49:53.361+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:49:53.384+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:49:53.384+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:49:53.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.380 seconds
+[2025-04-14T00:50:23.660+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:50:23.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:50:23.664+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:50:23.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:50:23.871+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:50:23.991+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:50:23.990+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:50:24.019+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:50:24.019+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:50:24.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.392 seconds
+[2025-04-14T00:50:54.227+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:50:54.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:50:54.231+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:50:54.231+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:50:54.445+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:50:54.584+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:50:54.584+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:50:54.620+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:50:54.620+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:50:54.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.426 seconds
+[2025-04-14T00:51:24.909+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:51:24.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:51:24.913+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:51:24.912+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:51:25.116+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:51:25.250+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:51:25.250+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:51:25.274+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:51:25.274+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:51:25.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.397 seconds
+[2025-04-14T00:51:55.468+0000] {processor.py:161} INFO - Started process (PID=250) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:51:55.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:51:55.472+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:51:55.472+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:51:55.687+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:51:55.834+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:51:55.834+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:51:55.858+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:51:55.857+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:51:55.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.424 seconds
+[2025-04-14T00:52:26.093+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:52:26.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:52:26.114+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:52:26.109+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:52:26.664+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:52:26.932+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:52:26.932+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:52:27.011+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:52:27.010+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:52:27.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.997 seconds
+[2025-04-14T00:52:57.247+0000] {processor.py:161} INFO - Started process (PID=265) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:52:57.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:52:57.256+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:52:57.255+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:52:57.805+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:52:58.039+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:52:58.038+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:52:58.086+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:52:58.085+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:52:58.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.899 seconds
+[2025-04-14T00:53:28.371+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:53:28.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:53:28.376+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:53:28.376+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:53:28.596+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:53:28.714+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:53:28.714+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:53:28.740+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:53:28.740+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:53:28.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.406 seconds
+[2025-04-14T00:53:59.007+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:53:59.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:53:59.011+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:53:59.010+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:53:59.212+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:53:59.326+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:53:59.326+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:53:59.353+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:53:59.353+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:53:59.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.379 seconds
+[2025-04-14T00:54:29.690+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:54:29.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:54:29.709+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:54:29.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:54:31.579+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:54:31.880+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:54:31.880+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:54:31.935+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:54:31.935+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:54:31.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 2.324 seconds
+[2025-04-14T00:55:02.198+0000] {processor.py:161} INFO - Started process (PID=301) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:55:02.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:55:02.204+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:55:02.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:55:02.492+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:55:02.629+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:55:02.629+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:55:02.669+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:55:02.669+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:55:02.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.507 seconds
+[2025-04-14T00:55:33.655+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:55:33.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:55:33.688+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:55:33.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:55:34.069+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:55:34.324+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:55:34.324+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:55:34.354+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:55:34.354+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:55:34.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.928 seconds
+[2025-04-14T00:56:04.591+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:56:04.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:56:04.595+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:56:04.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:56:04.959+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:56:05.168+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:56:05.168+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:56:05.211+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:56:05.211+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:56:05.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.688 seconds
+[2025-04-14T00:56:35.514+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:56:35.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:56:35.519+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:56:35.518+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:56:35.748+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:56:35.866+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:56:35.866+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:56:35.899+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:56:35.899+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:56:35.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.434 seconds
+[2025-04-14T00:57:06.129+0000] {processor.py:161} INFO - Started process (PID=334) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:57:06.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:57:06.136+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:57:06.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:57:06.412+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:57:06.559+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:57:06.559+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:57:06.586+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:57:06.585+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:57:06.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.488 seconds
+[2025-04-14T00:57:36.871+0000] {processor.py:161} INFO - Started process (PID=343) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:57:36.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:57:36.876+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:57:36.876+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:57:37.107+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:57:37.223+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:57:37.223+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:57:37.249+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:57:37.249+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:57:37.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.406 seconds
+[2025-04-14T00:58:07.510+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:58:07.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:58:07.514+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:58:07.513+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:58:07.720+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:58:07.833+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:58:07.833+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:58:07.857+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:58:07.857+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:58:07.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.380 seconds
+[2025-04-14T00:58:38.087+0000] {processor.py:161} INFO - Started process (PID=359) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:58:38.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T00:58:38.092+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:58:38.091+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:58:38.295+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T00:58:38.405+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:58:38.405+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T00:58:38.429+0000] {logging_mixin.py:188} INFO - [2025-04-14T00:58:38.429+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 01:00:00+00:00, run_after=2025-04-14 02:00:00+00:00
+[2025-04-14T00:58:38.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.377 seconds
+[2025-04-14T01:32:57.816+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:32:57.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:32:57.822+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:32:57.821+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:32:59.221+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:32:59.611+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:32:59.610+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:32:59.651+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:32:59.650+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:32:59.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 1.882 seconds
+[2025-04-14T01:33:30.327+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:33:30.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:33:30.349+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:33:30.347+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:33:30.874+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:33:31.168+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:33:31.168+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:33:31.214+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:33:31.213+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:33:31.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.960 seconds
+[2025-04-14T01:34:01.475+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:34:01.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:34:01.478+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:34:01.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:34:01.723+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:34:01.892+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:34:01.891+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:34:01.923+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:34:01.923+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:34:01.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.485 seconds
+[2025-04-14T01:34:32.354+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:34:32.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:34:32.371+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:34:32.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:34:32.992+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:34:33.269+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:34:33.268+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:34:33.333+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:34:33.332+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:34:33.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 1.282 seconds
+[2025-04-14T01:35:03.640+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:35:03.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:35:03.651+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:35:03.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:35:04.239+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:35:04.590+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:35:04.589+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:35:04.660+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:35:04.659+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:35:04.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 1.099 seconds
+[2025-04-14T01:35:34.839+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:35:34.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:35:34.843+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:35:34.842+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:35:35.052+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:35:35.172+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:35:35.171+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:35:35.195+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:35:35.195+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:35:35.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.389 seconds
+[2025-04-14T01:36:05.533+0000] {processor.py:161} INFO - Started process (PID=114) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:36:05.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:36:05.568+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:36:05.567+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:36:05.999+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:36:06.270+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:36:06.270+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:36:06.326+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:36:06.325+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:36:06.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.914 seconds
+[2025-04-14T01:36:36.626+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:36:36.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:36:36.653+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:36:36.651+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:36:37.065+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:36:37.222+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:36:37.222+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:36:37.253+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:36:37.253+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:36:37.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.668 seconds
+[2025-04-14T01:37:07.484+0000] {processor.py:161} INFO - Started process (PID=135) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:37:07.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:37:07.488+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:37:07.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:37:07.681+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:37:07.806+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:37:07.806+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:37:07.830+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:37:07.830+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:37:07.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.379 seconds
+[2025-04-14T01:37:38.064+0000] {processor.py:161} INFO - Started process (PID=143) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:37:38.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:37:38.070+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:37:38.069+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:37:38.303+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:37:38.451+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:37:38.451+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:37:38.478+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:37:38.478+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:37:38.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.460 seconds
+[2025-04-14T01:38:08.785+0000] {processor.py:161} INFO - Started process (PID=151) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:38:08.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:38:08.793+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:38:08.792+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:38:09.065+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:38:09.255+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:38:09.255+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:38:09.297+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:38:09.297+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:38:09.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.569 seconds
+[2025-04-14T01:38:39.560+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:38:39.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:38:39.564+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:38:39.564+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:38:39.751+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:38:39.864+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:38:39.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:38:39.889+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:38:39.889+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:38:39.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.368 seconds
+[2025-04-14T01:39:10.149+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:39:10.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:39:10.157+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:39:10.157+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:39:10.522+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:39:10.686+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:39:10.686+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:39:10.712+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:39:10.712+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:39:10.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.597 seconds
+[2025-04-14T01:39:40.908+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:39:40.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:39:40.916+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:39:40.915+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:39:41.293+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:39:41.504+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:39:41.503+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:39:41.595+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:39:41.594+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:39:41.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.776 seconds
+[2025-04-14T01:40:11.764+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:40:11.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:40:11.769+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:40:11.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:40:12.022+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:40:12.136+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:40:12.136+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:40:12.161+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:40:12.160+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:40:12.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.438 seconds
+[2025-04-14T01:40:42.378+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:40:42.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:40:42.382+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:40:42.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:40:42.764+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:40:42.948+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:40:42.948+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:40:42.989+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:40:42.989+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:40:43.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.656 seconds
+[2025-04-14T01:41:13.302+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:41:13.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:41:13.307+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:41:13.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:41:13.499+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:41:13.616+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:41:13.615+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:41:13.640+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:41:13.640+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:41:13.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.369 seconds
+[2025-04-14T01:41:43.837+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:41:43.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:41:43.840+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:41:43.839+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:41:44.030+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:41:44.149+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:41:44.149+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:41:44.174+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:41:44.173+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:41:44.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.365 seconds
+[2025-04-14T01:42:14.444+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:42:14.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:42:14.452+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:42:14.452+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:42:14.817+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:42:14.982+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:42:14.982+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:42:15.008+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:42:15.008+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:42:15.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.597 seconds
+[2025-04-14T01:42:45.249+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:42:45.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:42:45.253+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:42:45.253+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:42:45.441+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:42:45.553+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:42:45.552+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:42:45.575+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:42:45.575+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:42:45.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.359 seconds
+[2025-04-14T01:43:15.850+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:43:15.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:43:15.855+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:43:15.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:43:16.052+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:43:16.162+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:43:16.162+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:43:16.185+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:43:16.185+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:43:16.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.363 seconds
+[2025-04-14T01:43:46.427+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:43:46.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:43:46.432+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:43:46.432+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:43:46.626+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:43:46.736+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:43:46.736+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:43:46.765+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:43:46.764+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:43:46.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.372 seconds
+[2025-04-14T01:44:17.036+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:44:17.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:44:17.040+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:44:17.039+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:44:17.242+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:44:17.351+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:44:17.350+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:44:17.374+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:44:17.374+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:44:17.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.365 seconds
+[2025-04-14T01:44:47.615+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:44:47.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T01:44:47.622+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:44:47.622+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:44:47.813+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T01:44:47.925+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:44:47.925+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T01:44:47.948+0000] {logging_mixin.py:188} INFO - [2025-04-14T01:44:47.948+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-14 02:00:00+00:00, run_after=2025-04-14 03:00:00+00:00
+[2025-04-14T01:44:47.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.360 seconds
+[2025-04-14T23:38:19.217+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:38:19.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:38:19.224+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:38:19.223+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:38:19.482+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:38:19.609+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:38:19.609+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:38:19.631+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:38:19.631+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:38:19.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.445 seconds
+[2025-04-14T23:39:01.160+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:39:01.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:39:01.167+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:39:01.165+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:39:01.409+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:39:01.526+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:39:01.526+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:39:01.549+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:39:01.549+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:39:01.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.421 seconds
+[2025-04-14T23:39:31.826+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:39:31.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:39:31.830+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:39:31.830+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:39:32.013+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:39:32.116+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:39:32.116+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:39:32.138+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:39:32.137+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:39:32.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.346 seconds
+[2025-04-14T23:40:02.378+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:40:02.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:40:02.381+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:40:02.380+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:40:02.558+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:40:02.663+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:40:02.663+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:40:02.686+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:40:02.686+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:40:02.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.334 seconds
+[2025-04-14T23:40:32.911+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:40:32.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:40:32.915+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:40:32.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:40:33.095+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:40:33.209+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:40:33.209+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:40:33.231+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:40:33.231+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:40:33.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.346 seconds
+[2025-04-14T23:41:03.450+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:41:03.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:41:03.455+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:41:03.455+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:41:03.635+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:41:03.740+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:41:03.740+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:41:03.761+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:41:03.761+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:41:03.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.339 seconds
+[2025-04-14T23:41:33.996+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:41:33.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:41:33.999+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:41:33.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:41:34.180+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:41:34.290+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:41:34.289+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:41:34.311+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:41:34.311+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:41:34.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.342 seconds
+[2025-04-14T23:42:04.548+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:42:04.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:42:04.552+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:42:04.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:42:04.742+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:42:04.847+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:42:04.847+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:42:04.869+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:42:04.869+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:42:04.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.348 seconds
+[2025-04-14T23:42:35.127+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:42:35.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:42:35.130+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:42:35.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:42:35.311+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:42:35.416+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:42:35.416+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:42:35.437+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:42:35.437+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:42:35.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.337 seconds
+[2025-04-14T23:43:05.677+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:43:05.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:43:05.680+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:43:05.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:43:05.861+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:43:05.966+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:43:05.965+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:43:05.990+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:43:05.990+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:43:06.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.342 seconds
+[2025-04-14T23:43:36.271+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:43:36.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:43:36.276+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:43:36.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:43:36.470+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:43:36.576+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:43:36.575+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:43:36.597+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:43:36.597+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:43:36.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.359 seconds
+[2025-04-14T23:44:06.800+0000] {processor.py:161} INFO - Started process (PID=355) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:44:06.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:44:06.804+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:44:06.804+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:44:07.003+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:44:07.115+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:44:07.115+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:44:07.137+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:44:07.136+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:44:07.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.367 seconds
+[2025-04-14T23:44:37.357+0000] {processor.py:161} INFO - Started process (PID=363) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:44:37.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:44:37.361+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:44:37.361+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:44:37.575+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:44:37.681+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:44:37.681+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:44:37.703+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:44:37.703+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:44:37.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.373 seconds
+[2025-04-14T23:45:07.944+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:45:07.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:45:07.947+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:45:07.947+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:45:08.127+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:45:08.244+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:45:08.244+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:45:08.266+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:45:08.266+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:45:08.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.346 seconds
+[2025-04-14T23:45:38.498+0000] {processor.py:161} INFO - Started process (PID=379) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:45:38.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:45:38.502+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:45:38.501+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:45:38.680+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:45:38.809+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:45:38.809+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:45:38.835+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:45:38.835+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:45:38.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.369 seconds
+[2025-04-14T23:46:09.069+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:46:09.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:46:09.072+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:46:09.072+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:46:09.273+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:46:09.386+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:46:09.385+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:46:09.408+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:46:09.408+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:46:09.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.366 seconds
+[2025-04-14T23:46:39.664+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:46:39.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:46:39.667+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:46:39.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:46:39.844+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:46:39.949+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:46:39.949+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:46:39.971+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:46:39.971+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:46:39.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.333 seconds
+[2025-04-14T23:47:10.194+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:47:10.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:47:10.197+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:47:10.197+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:47:10.384+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:47:10.501+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:47:10.501+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:47:10.523+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:47:10.522+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:47:10.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.357 seconds
+[2025-04-14T23:47:40.784+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:47:40.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:47:40.789+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:47:40.788+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:47:40.971+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:47:41.077+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:47:41.076+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:47:41.098+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:47:41.098+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:47:41.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.348 seconds
+[2025-04-14T23:48:11.352+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:48:11.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:48:11.355+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:48:11.355+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:48:11.533+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:48:11.637+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:48:11.637+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:48:11.660+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:48:11.659+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:48:11.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.333 seconds
+[2025-04-14T23:48:41.891+0000] {processor.py:161} INFO - Started process (PID=427) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:48:41.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:48:41.894+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:48:41.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:48:42.071+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:48:42.174+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:48:42.173+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:48:42.196+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:48:42.196+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:48:42.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.331 seconds
+[2025-04-14T23:49:12.400+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:49:12.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:49:12.403+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:49:12.402+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:49:12.585+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:49:12.692+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:49:12.692+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:49:12.714+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:49:12.714+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:49:12.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.345 seconds
+[2025-04-14T23:49:42.939+0000] {processor.py:161} INFO - Started process (PID=443) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:49:42.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:49:42.942+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:49:42.942+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:49:43.126+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:49:43.235+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:49:43.234+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:49:43.256+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:49:43.256+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:49:43.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.344 seconds
+[2025-04-14T23:50:13.489+0000] {processor.py:161} INFO - Started process (PID=451) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:50:13.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:50:13.492+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:50:13.492+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:50:13.672+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:50:13.774+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:50:13.774+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:50:13.794+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:50:13.794+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:50:13.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.332 seconds
+[2025-04-14T23:50:44.041+0000] {processor.py:161} INFO - Started process (PID=459) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:50:44.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:50:44.044+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:50:44.043+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:50:44.222+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:50:44.326+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:50:44.326+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:50:44.350+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:50:44.349+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:50:44.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.336 seconds
+[2025-04-14T23:51:14.577+0000] {processor.py:161} INFO - Started process (PID=467) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:51:14.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:51:14.581+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:51:14.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:51:14.760+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:51:14.864+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:51:14.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:51:14.886+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:51:14.886+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:51:14.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.335 seconds
+[2025-04-14T23:51:45.102+0000] {processor.py:161} INFO - Started process (PID=475) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:51:45.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:51:45.106+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:51:45.105+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:51:45.285+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:51:45.389+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:51:45.389+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:51:45.410+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:51:45.410+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:51:45.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.333 seconds
+[2025-04-14T23:52:15.652+0000] {processor.py:161} INFO - Started process (PID=483) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:52:15.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:52:15.657+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:52:15.657+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:52:15.834+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:52:15.938+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:52:15.938+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:52:15.959+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:52:15.959+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:52:15.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.333 seconds
+[2025-04-14T23:52:46.206+0000] {processor.py:161} INFO - Started process (PID=491) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:52:46.207+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:52:46.209+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:52:46.209+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:52:46.390+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:52:46.495+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:52:46.495+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:52:46.517+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:52:46.516+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:52:46.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.337 seconds
+[2025-04-14T23:53:16.747+0000] {processor.py:161} INFO - Started process (PID=499) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:53:16.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:53:16.750+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:53:16.749+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:53:16.931+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:53:17.040+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:53:17.040+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:53:17.063+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:53:17.063+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:53:17.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.345 seconds
+[2025-04-14T23:53:47.283+0000] {processor.py:161} INFO - Started process (PID=507) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:53:47.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:53:47.286+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:53:47.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:53:47.484+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:53:47.600+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:53:47.599+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:53:47.630+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:53:47.629+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:53:47.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.376 seconds
+[2025-04-14T23:54:17.885+0000] {processor.py:161} INFO - Started process (PID=520) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:54:17.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:54:17.890+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:54:17.889+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:54:18.076+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:54:18.179+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:54:18.179+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:54:18.201+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:54:18.200+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:54:18.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.350 seconds
+[2025-04-14T23:54:48.417+0000] {processor.py:161} INFO - Started process (PID=528) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:54:48.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:54:48.420+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:54:48.419+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:54:48.597+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:54:48.701+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:54:48.701+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:54:48.722+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:54:48.722+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:54:48.743+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.334 seconds
+[2025-04-14T23:55:18.954+0000] {processor.py:161} INFO - Started process (PID=536) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:55:18.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:55:18.959+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:55:18.958+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:55:19.169+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:55:19.271+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:55:19.271+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:55:19.291+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:55:19.291+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:55:19.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.364 seconds
+[2025-04-14T23:55:49.536+0000] {processor.py:161} INFO - Started process (PID=544) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:55:49.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:55:49.539+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:55:49.538+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:55:49.719+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:55:49.832+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:55:49.831+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:55:49.854+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:55:49.854+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:55:49.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.344 seconds
+[2025-04-14T23:56:20.095+0000] {processor.py:161} INFO - Started process (PID=552) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:56:20.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:56:20.099+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:56:20.099+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:56:20.278+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:56:20.380+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:56:20.380+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:56:20.403+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:56:20.403+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:56:20.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.335 seconds
+[2025-04-14T23:56:50.615+0000] {processor.py:161} INFO - Started process (PID=560) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:56:50.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:56:50.618+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:56:50.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:56:50.792+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:56:50.902+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:56:50.902+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:56:50.927+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:56:50.927+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:56:50.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.342 seconds
+[2025-04-14T23:57:21.170+0000] {processor.py:161} INFO - Started process (PID=568) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:57:21.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:57:21.175+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:57:21.174+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:57:21.362+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:57:21.468+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:57:21.468+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:57:21.491+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:57:21.491+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:57:21.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.348 seconds
+[2025-04-14T23:57:51.747+0000] {processor.py:161} INFO - Started process (PID=576) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:57:51.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:57:51.751+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:57:51.750+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:57:51.928+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:57:52.034+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:57:52.033+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:57:52.055+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:57:52.055+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:57:52.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.333 seconds
+[2025-04-14T23:58:22.273+0000] {processor.py:161} INFO - Started process (PID=584) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:58:22.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:58:22.276+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:58:22.276+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:58:22.461+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:58:22.568+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:58:22.568+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:58:22.595+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:58:22.595+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:58:22.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.350 seconds
+[2025-04-14T23:58:52.842+0000] {processor.py:161} INFO - Started process (PID=592) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:58:52.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:58:52.845+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:58:52.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:58:53.029+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:58:53.133+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:58:53.133+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:58:53.155+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:58:53.154+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:58:53.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.340 seconds
+[2025-04-14T23:59:23.379+0000] {processor.py:161} INFO - Started process (PID=600) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:59:23.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:59:23.382+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:59:23.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:59:23.565+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:59:23.670+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:59:23.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:59:23.696+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:59:23.695+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:59:23.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.344 seconds
+[2025-04-14T23:59:53.916+0000] {processor.py:161} INFO - Started process (PID=608) to work on /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:59:53.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/finScrapingDag.py for tasks to queue
+[2025-04-14T23:59:53.919+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:59:53.919+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:59:54.098+0000] {processor.py:840} INFO - DAG(s) 'finScraping' retrieved from /opt/airflow/dags/finScrapingDag.py
+[2025-04-14T23:59:54.204+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:59:54.204+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-14T23:59:54.226+0000] {logging_mixin.py:188} INFO - [2025-04-14T23:59:54.226+0000] {dag.py:3954} INFO - Setting next_dagrun for finScraping to 2025-04-15 00:00:00+00:00, run_after=2025-04-15 01:00:00+00:00
+[2025-04-14T23:59:54.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/finScrapingDag.py took 0.335 seconds
